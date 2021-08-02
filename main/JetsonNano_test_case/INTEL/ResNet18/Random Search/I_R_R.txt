@@ -1,0 +1,2044 @@
+Found 6000 files belonging to 6 classes.
+Found 1200 files belonging to 6 classes.
+Search space summary
+Default search space size: 16
+s1_filter_size_1 (Choice)
+{'default': 32, 'conditions': [], 'values': [32, 64, 128, 256], 'ordered': True}
+s2_filter_size_1 (Choice)
+{'default': 32, 'conditions': [], 'values': [32, 64, 128, 256], 'ordered': True}
+s2_filter_size_2 (Choice)
+{'default': 32, 'conditions': [], 'values': [32, 64, 128, 256], 'ordered': True}
+s3_filter_size_1 (Choice)
+{'default': 32, 'conditions': [], 'values': [32, 64, 128, 256], 'ordered': True}
+s3_filter_size_2 (Choice)
+{'default': 32, 'conditions': [], 'values': [32, 64, 128, 256], 'ordered': True}
+s4_filter_size_1 (Choice)
+{'default': 32, 'conditions': [], 'values': [32, 64, 128, 256], 'ordered': True}
+s4_filter_size_2 (Choice)
+{'default': 32, 'conditions': [], 'values': [32, 64, 128, 256], 'ordered': True}
+s5_filter_size_1 (Choice)
+{'default': 32, 'conditions': [], 'values': [32, 64, 128, 256], 'ordered': True}
+s5_filter_size_2 (Choice)
+{'default': 32, 'conditions': [], 'values': [32, 64, 128, 256], 'ordered': True}
+dp_size_1 (Choice)
+{'default': 0.0, 'conditions': [], 'values': [0.0, 0.1, 0.2, 0.3], 'ordered': True}
+dense_size_1 (Choice)
+{'default': 64, 'conditions': [], 'values': [64, 128, 256], 'ordered': True}
+wd_size_1 (Choice)
+{'default': 0.0, 'conditions': [], 'values': [0.0, 0.1, 0.001], 'ordered': True}
+dense_size_2 (Choice)
+{'default': 64, 'conditions': [], 'values': [64, 128, 256], 'ordered': True}
+wd_size_2 (Choice)
+{'default': 0.0, 'conditions': [], 'values': [0.0, 0.1, 0.001], 'ordered': True}
+dp_size_2 (Choice)
+{'default': 0.0, 'conditions': [], 'values': [0.0, 0.1, 0.2, 0.3], 'ordered': True}
+learning_rate (Choice)
+{'default': 0.001, 'conditions': [], 'values': [0.1, 0.01, 0.001], 'ordered': True}
+
+Search: Running Trial #1
+
+Hyperparameter    |Value             |Best Value So Far 
+s1_filter_size_1  |256               |?                 
+s2_filter_size_1  |32                |?                 
+s2_filter_size_2  |64                |?                 
+s3_filter_size_1  |64                |?                 
+s3_filter_size_2  |128               |?                 
+s4_filter_size_1  |128               |?                 
+s4_filter_size_2  |64                |?                 
+s5_filter_size_1  |256               |?                 
+s5_filter_size_2  |128               |?                 
+dp_size_1         |0.1               |?                 
+dense_size_1      |64                |?                 
+wd_size_1         |0.1               |?                 
+dense_size_2      |256               |?                 
+wd_size_2         |0.001             |?                 
+dp_size_2         |0.1               |?                 
+learning_rate     |0.1               |?                 
+
+Epoch 1/10
+188/188 [==============================] - 220s 439ms/step - loss: 5.9848 - accuracy: 0.1648 - val_loss: 1.9823 - val_accuracy: 0.1667
+Epoch 2/10
+188/188 [==============================] - 49s 240ms/step - loss: 1.8883 - accuracy: 0.1663 - val_loss: 1.8267 - val_accuracy: 0.1667
+Epoch 3/10
+188/188 [==============================] - 32s 153ms/step - loss: 1.8165 - accuracy: 0.1657 - val_loss: 1.8001 - val_accuracy: 0.1667
+Epoch 4/10
+188/188 [==============================] - 26s 133ms/step - loss: 1.8037 - accuracy: 0.1655 - val_loss: 1.7951 - val_accuracy: 0.1667
+Epoch 5/10
+188/188 [==============================] - 25s 131ms/step - loss: 1.8014 - accuracy: 0.1653 - val_loss: 1.7942 - val_accuracy: 0.1667
+Epoch 6/10
+188/188 [==============================] - 25s 131ms/step - loss: 1.8011 - accuracy: 0.1652 - val_loss: 1.7942 - val_accuracy: 0.1667
+Epoch 7/10
+188/188 [==============================] - 25s 131ms/step - loss: 1.8011 - accuracy: 0.1658 - val_loss: 1.7945 - val_accuracy: 0.1667
+Epoch 8/10
+188/188 [==============================] - 25s 131ms/step - loss: 1.8012 - accuracy: 0.1668 - val_loss: 1.7944 - val_accuracy: 0.1667
+Epoch 9/10
+188/188 [==============================] - 24s 130ms/step - loss: 1.8014 - accuracy: 0.1668 - val_loss: 1.7943 - val_accuracy: 0.1667
+
+Trial 1 Complete [00h 07m 51s]
+val_accuracy: 0.1666666716337204
+
+Best val_accuracy So Far: 0.1666666716337204
+Total elapsed time: 00h 07m 51s
+
+Search: Running Trial #2
+
+Hyperparameter    |Value             |Best Value So Far 
+s1_filter_size_1  |32                |256               
+s2_filter_size_1  |256               |32                
+s2_filter_size_2  |32                |64                
+s3_filter_size_1  |256               |64                
+s3_filter_size_2  |64                |128               
+s4_filter_size_1  |128               |128               
+s4_filter_size_2  |32                |64                
+s5_filter_size_1  |32                |256               
+s5_filter_size_2  |64                |128               
+dp_size_1         |0.2               |0.1               
+dense_size_1      |256               |64                
+wd_size_1         |0                 |0.1               
+dense_size_2      |128               |256               
+wd_size_2         |0.001             |0.001             
+dp_size_2         |0.3               |0.1               
+learning_rate     |0.001             |0.1               
+
+Epoch 1/10
+188/188 [==============================] - 106s 279ms/step - loss: 1.4665 - accuracy: 0.4850 - val_loss: 1.4452 - val_accuracy: 0.4900
+Epoch 2/10
+188/188 [==============================] - 52s 255ms/step - loss: 1.1240 - accuracy: 0.6362 - val_loss: 1.6300 - val_accuracy: 0.5058
+Epoch 3/10
+188/188 [==============================] - 37s 174ms/step - loss: 1.0116 - accuracy: 0.6715 - val_loss: 1.6757 - val_accuracy: 0.4825
+Epoch 4/10
+188/188 [==============================] - 65s 299ms/step - loss: 0.9002 - accuracy: 0.7162 - val_loss: 2.6088 - val_accuracy: 0.3858
+
+Trial 2 Complete [00h 06m 06s]
+val_accuracy: 0.5058333277702332
+
+Best val_accuracy So Far: 0.5058333277702332
+Total elapsed time: 00h 13m 59s
+
+Search: Running Trial #3
+
+Hyperparameter    |Value             |Best Value So Far 
+s1_filter_size_1  |128               |32                
+s2_filter_size_1  |32                |256               
+s2_filter_size_2  |256               |32                
+s3_filter_size_1  |256               |256               
+s3_filter_size_2  |256               |64                
+s4_filter_size_1  |32                |128               
+s4_filter_size_2  |32                |32                
+s5_filter_size_1  |128               |32                
+s5_filter_size_2  |128               |64                
+dp_size_1         |0.3               |0.2               
+dense_size_1      |256               |256               
+wd_size_1         |0.1               |0                 
+dense_size_2      |128               |128               
+wd_size_2         |0.001             |0.001             
+dp_size_2         |0.3               |0.3               
+learning_rate     |0.01              |0.001             
+
+Epoch 1/10
+188/188 [==============================] - 124s 337ms/step - loss: 2.4527 - accuracy: 0.3348 - val_loss: 2.7634 - val_accuracy: 0.1950
+Epoch 2/10
+188/188 [==============================] - 45s 225ms/step - loss: 1.4861 - accuracy: 0.4313 - val_loss: 3.2951 - val_accuracy: 0.2208
+Epoch 3/10
+188/188 [==============================] - 48s 218ms/step - loss: 1.3700 - accuracy: 0.4805 - val_loss: 2.0986 - val_accuracy: 0.2892
+Epoch 4/10
+188/188 [==============================] - 59s 300ms/step - loss: 1.3130 - accuracy: 0.5062 - val_loss: 1.8206 - val_accuracy: 0.4100
+Epoch 5/10
+188/188 [==============================] - 42s 206ms/step - loss: 1.2368 - accuracy: 0.5385 - val_loss: 1.9926 - val_accuracy: 0.3975
+Epoch 6/10
+188/188 [==============================] - 39s 189ms/step - loss: 1.1640 - accuracy: 0.5692 - val_loss: 1.2339 - val_accuracy: 0.4992
+Epoch 7/10
+188/188 [==============================] - 65s 321ms/step - loss: 1.1278 - accuracy: 0.5815 - val_loss: 1.5271 - val_accuracy: 0.3900
+Epoch 8/10
+188/188 [==============================] - 50s 248ms/step - loss: 1.1131 - accuracy: 0.5857 - val_loss: 1.7358 - val_accuracy: 0.4283
+Epoch 9/10
+188/188 [==============================] - 38s 186ms/step - loss: 1.0534 - accuracy: 0.5957 - val_loss: 1.5160 - val_accuracy: 0.4575
+
+Trial 3 Complete [00h 12m 08s]
+val_accuracy: 0.49916666746139526
+
+Best val_accuracy So Far: 0.5058333277702332
+Total elapsed time: 00h 26m 09s
+
+Search: Running Trial #4
+
+Hyperparameter    |Value             |Best Value So Far 
+s1_filter_size_1  |64                |32                
+s2_filter_size_1  |256               |256               
+s2_filter_size_2  |128               |32                
+s3_filter_size_1  |64                |256               
+s3_filter_size_2  |128               |64                
+s4_filter_size_1  |128               |128               
+s4_filter_size_2  |32                |32                
+s5_filter_size_1  |256               |32                
+s5_filter_size_2  |64                |64                
+dp_size_1         |0.2               |0.2               
+dense_size_1      |256               |256               
+wd_size_1         |0.1               |0                 
+dense_size_2      |64                |128               
+wd_size_2         |0.1               |0.001             
+dp_size_2         |0.3               |0.3               
+learning_rate     |0.001             |0.001             
+
+Epoch 1/10
+188/188 [==============================] - 122s 337ms/step - loss: 6.8338 - accuracy: 0.4900 - val_loss: 1.9278 - val_accuracy: 0.4058
+Epoch 2/10
+188/188 [==============================] - 45s 222ms/step - loss: 1.2612 - accuracy: 0.6135 - val_loss: 1.7626 - val_accuracy: 0.4417
+Epoch 3/10
+188/188 [==============================] - 42s 202ms/step - loss: 1.0782 - accuracy: 0.6615 - val_loss: 1.4601 - val_accuracy: 0.5292
+Epoch 4/10
+188/188 [==============================] - 39s 186ms/step - loss: 1.0018 - accuracy: 0.6980 - val_loss: 1.7618 - val_accuracy: 0.4550
+Epoch 5/10
+188/188 [==============================] - 43s 205ms/step - loss: 0.9516 - accuracy: 0.7165 - val_loss: 1.6656 - val_accuracy: 0.4508
+Epoch 6/10
+188/188 [==============================] - 32s 154ms/step - loss: 0.8832 - accuracy: 0.7442 - val_loss: 3.0396 - val_accuracy: 0.3683
+
+Trial 4 Complete [00h 06m 39s]
+val_accuracy: 0.5291666388511658
+
+Best val_accuracy So Far: 0.5291666388511658
+Total elapsed time: 00h 32m 48s
+
+Search: Running Trial #5
+
+Hyperparameter    |Value             |Best Value So Far 
+s1_filter_size_1  |64                |64                
+s2_filter_size_1  |256               |256               
+s2_filter_size_2  |64                |128               
+s3_filter_size_1  |256               |64                
+s3_filter_size_2  |128               |128               
+s4_filter_size_1  |32                |128               
+s4_filter_size_2  |128               |32                
+s5_filter_size_1  |256               |256               
+s5_filter_size_2  |32                |64                
+dp_size_1         |0.3               |0.2               
+dense_size_1      |256               |256               
+wd_size_1         |0                 |0.1               
+dense_size_2      |256               |64                
+wd_size_2         |0.001             |0.1               
+dp_size_2         |0                 |0.3               
+learning_rate     |0.1               |0.001             
+
+Epoch 1/10
+188/188 [==============================] - 103s 289ms/step - loss: 3.9510 - accuracy: 0.1712 - val_loss: 1.9859 - val_accuracy: 0.1667
+Epoch 2/10
+188/188 [==============================] - 52s 258ms/step - loss: 1.8639 - accuracy: 0.1653 - val_loss: 1.8045 - val_accuracy: 0.1667
+Epoch 3/10
+188/188 [==============================] - 37s 182ms/step - loss: 1.8041 - accuracy: 0.1655 - val_loss: 1.7945 - val_accuracy: 0.1667
+Epoch 4/10
+188/188 [==============================] - 23s 123ms/step - loss: 1.8011 - accuracy: 0.1655 - val_loss: 1.7940 - val_accuracy: 0.1667
+Epoch 5/10
+188/188 [==============================] - 21s 111ms/step - loss: 1.8010 - accuracy: 0.1667 - val_loss: 1.7940 - val_accuracy: 0.1667
+Epoch 6/10
+188/188 [==============================] - 21s 110ms/step - loss: 1.8010 - accuracy: 0.1668 - val_loss: 1.7940 - val_accuracy: 0.1667
+Epoch 7/10
+188/188 [==============================] - 21s 110ms/step - loss: 1.8011 - accuracy: 0.1668 - val_loss: 1.7942 - val_accuracy: 0.1667
+Epoch 8/10
+188/188 [==============================] - 21s 110ms/step - loss: 1.8011 - accuracy: 0.1668 - val_loss: 1.7941 - val_accuracy: 0.1667
+Epoch 9/10
+188/188 [==============================] - 21s 110ms/step - loss: 1.8011 - accuracy: 0.1668 - val_loss: 1.7941 - val_accuracy: 0.1667
+
+Trial 5 Complete [00h 06m 21s]
+val_accuracy: 0.1666666716337204
+
+Best val_accuracy So Far: 0.5291666388511658
+Total elapsed time: 00h 39m 10s
+
+Search: Running Trial #6
+
+Hyperparameter    |Value             |Best Value So Far 
+s1_filter_size_1  |128               |64                
+s2_filter_size_1  |64                |256               
+s2_filter_size_2  |64                |128               
+s3_filter_size_1  |64                |64                
+s3_filter_size_2  |128               |128               
+s4_filter_size_1  |32                |128               
+s4_filter_size_2  |256               |32                
+s5_filter_size_1  |256               |256               
+s5_filter_size_2  |256               |64                
+dp_size_1         |0.2               |0.2               
+dense_size_1      |256               |256               
+wd_size_1         |0.1               |0.1               
+dense_size_2      |64                |64                
+wd_size_2         |0                 |0.1               
+dp_size_2         |0.3               |0.3               
+learning_rate     |0.1               |0.001             
+
+Epoch 1/10
+188/188 [==============================] - 109s 318ms/step - loss: 18.7455 - accuracy: 0.1680 - val_loss: 2.5887 - val_accuracy: 0.1975
+Epoch 2/10
+188/188 [==============================] - 52s 256ms/step - loss: 1.8370 - accuracy: 0.1645 - val_loss: 1.7941 - val_accuracy: 0.1667
+Epoch 3/10
+188/188 [==============================] - 33s 161ms/step - loss: 1.8008 - accuracy: 0.1650 - val_loss: 1.7942 - val_accuracy: 0.1667
+Epoch 4/10
+188/188 [==============================] - 27s 143ms/step - loss: 1.8011 - accuracy: 0.1653 - val_loss: 1.7943 - val_accuracy: 0.1667
+Epoch 5/10
+188/188 [==============================] - 27s 142ms/step - loss: 1.8013 - accuracy: 0.1673 - val_loss: 1.7947 - val_accuracy: 0.1667
+
+Trial 6 Complete [00h 05m 13s]
+val_accuracy: 0.19750000536441803
+
+Best val_accuracy So Far: 0.5291666388511658
+Total elapsed time: 00h 44m 23s
+
+Search: Running Trial #7
+
+Hyperparameter    |Value             |Best Value So Far 
+s1_filter_size_1  |256               |64                
+s2_filter_size_1  |64                |256               
+s2_filter_size_2  |32                |128               
+s3_filter_size_1  |32                |64                
+s3_filter_size_2  |256               |128               
+s4_filter_size_1  |64                |128               
+s4_filter_size_2  |128               |32                
+s5_filter_size_1  |32                |256               
+s5_filter_size_2  |128               |64                
+dp_size_1         |0.1               |0.2               
+dense_size_1      |256               |256               
+wd_size_1         |0.001             |0.1               
+dense_size_2      |64                |64                
+wd_size_2         |0.001             |0.1               
+dp_size_2         |0.3               |0.3               
+learning_rate     |0.01              |0.001             
+
+Epoch 1/10
+188/188 [==============================] - 93s 253ms/step - loss: 1.7359 - accuracy: 0.3490 - val_loss: 1.7226 - val_accuracy: 0.3975
+Epoch 2/10
+188/188 [==============================] - 57s 286ms/step - loss: 1.3259 - accuracy: 0.4575 - val_loss: 4.3528 - val_accuracy: 0.1958
+Epoch 3/10
+188/188 [==============================] - 33s 147ms/step - loss: 1.2076 - accuracy: 0.5342 - val_loss: 1.6977 - val_accuracy: 0.4850
+Epoch 4/10
+188/188 [==============================] - 43s 201ms/step - loss: 1.1322 - accuracy: 0.5697 - val_loss: 3.9183 - val_accuracy: 0.3425
+Epoch 5/10
+188/188 [==============================] - 36s 175ms/step - loss: 1.0650 - accuracy: 0.5933 - val_loss: 4.7952 - val_accuracy: 0.3392
+Epoch 6/10
+188/188 [==============================] - 37s 160ms/step - loss: 1.0243 - accuracy: 0.6133 - val_loss: 2.1271 - val_accuracy: 0.3958
+
+Trial 7 Complete [00h 06m 06s]
+val_accuracy: 0.48500001430511475
+
+Best val_accuracy So Far: 0.5291666388511658
+Total elapsed time: 00h 50m 30s
+
+Search: Running Trial #8
+
+Hyperparameter    |Value             |Best Value So Far 
+s1_filter_size_1  |64                |64                
+s2_filter_size_1  |256               |256               
+s2_filter_size_2  |128               |128               
+s3_filter_size_1  |256               |64                
+s3_filter_size_2  |128               |128               
+s4_filter_size_1  |256               |128               
+s4_filter_size_2  |256               |32                
+s5_filter_size_1  |32                |256               
+s5_filter_size_2  |256               |64                
+dp_size_1         |0.3               |0.2               
+dense_size_1      |64                |256               
+wd_size_1         |0.1               |0.1               
+dense_size_2      |256               |64                
+wd_size_2         |0                 |0.1               
+dp_size_2         |0.3               |0.3               
+learning_rate     |0.001             |0.001             
+
+Epoch 1/10
+188/188 [==============================] - 115s 366ms/step - loss: 4.2849 - accuracy: 0.5167 - val_loss: 1.9304 - val_accuracy: 0.3592
+Epoch 2/10
+188/188 [==============================] - 55s 280ms/step - loss: 1.1103 - accuracy: 0.6390 - val_loss: 1.4687 - val_accuracy: 0.5092
+Epoch 3/10
+188/188 [==============================] - 49s 238ms/step - loss: 0.9391 - accuracy: 0.6878 - val_loss: 1.5058 - val_accuracy: 0.5000
+Epoch 4/10
+188/188 [==============================] - 72s 369ms/step - loss: 0.8389 - accuracy: 0.7378 - val_loss: 1.7046 - val_accuracy: 0.5000
+Epoch 5/10
+188/188 [==============================] - 41s 208ms/step - loss: 0.7618 - accuracy: 0.7552 - val_loss: 2.4698 - val_accuracy: 0.4508
+
+Trial 8 Complete [00h 07m 37s]
+val_accuracy: 0.5091666579246521
+
+Best val_accuracy So Far: 0.5291666388511658
+Total elapsed time: 00h 58m 08s
+
+Search: Running Trial #9
+
+Hyperparameter    |Value             |Best Value So Far 
+s1_filter_size_1  |256               |64                
+s2_filter_size_1  |32                |256               
+s2_filter_size_2  |32                |128               
+s3_filter_size_1  |128               |64                
+s3_filter_size_2  |256               |128               
+s4_filter_size_1  |64                |128               
+s4_filter_size_2  |256               |32                
+s5_filter_size_1  |128               |256               
+s5_filter_size_2  |128               |64                
+dp_size_1         |0.1               |0.2               
+dense_size_1      |64                |256               
+wd_size_1         |0                 |0.1               
+dense_size_2      |64                |64                
+wd_size_2         |0.1               |0.1               
+dp_size_2         |0.3               |0.3               
+learning_rate     |0.001             |0.001             
+
+Epoch 1/10
+188/188 [==============================] - 109s 314ms/step - loss: 3.9182 - accuracy: 0.4635 - val_loss: 2.2882 - val_accuracy: 0.3433
+Epoch 2/10
+188/188 [==============================] - 58s 274ms/step - loss: 1.2897 - accuracy: 0.6132 - val_loss: 2.4466 - val_accuracy: 0.3692
+Epoch 3/10
+188/188 [==============================] - 41s 200ms/step - loss: 0.9861 - accuracy: 0.6698 - val_loss: 1.5702 - val_accuracy: 0.4867
+Epoch 4/10
+188/188 [==============================] - 58s 292ms/step - loss: 0.8835 - accuracy: 0.7018 - val_loss: 1.8939 - val_accuracy: 0.5050
+Epoch 5/10
+188/188 [==============================] - 45s 212ms/step - loss: 0.8100 - accuracy: 0.7338 - val_loss: 1.5657 - val_accuracy: 0.4633
+Epoch 6/10
+188/188 [==============================] - 47s 217ms/step - loss: 0.7404 - accuracy: 0.7645 - val_loss: 1.6281 - val_accuracy: 0.4908
+Epoch 7/10
+188/188 [==============================] - 27s 135ms/step - loss: 0.7059 - accuracy: 0.7685 - val_loss: 1.7246 - val_accuracy: 0.5208
+Epoch 8/10
+188/188 [==============================] - 25s 134ms/step - loss: 0.6518 - accuracy: 0.7940 - val_loss: 1.1211 - val_accuracy: 0.6217
+Epoch 9/10
+188/188 [==============================] - 25s 134ms/step - loss: 0.5795 - accuracy: 0.8223 - val_loss: 2.2052 - val_accuracy: 0.5292
+Epoch 10/10
+188/188 [==============================] - 25s 134ms/step - loss: 0.5526 - accuracy: 0.8300 - val_loss: 2.2594 - val_accuracy: 0.4833
+
+Trial 9 Complete [00h 09m 11s]
+val_accuracy: 0.621666669845581
+
+Best val_accuracy So Far: 0.621666669845581
+Total elapsed time: 01h 07m 20s
+
+Search: Running Trial #10
+
+Hyperparameter    |Value             |Best Value So Far 
+s1_filter_size_1  |32                |256               
+s2_filter_size_1  |32                |32                
+s2_filter_size_2  |256               |32                
+s3_filter_size_1  |256               |128               
+s3_filter_size_2  |64                |256               
+s4_filter_size_1  |256               |64                
+s4_filter_size_2  |64                |256               
+s5_filter_size_1  |128               |128               
+s5_filter_size_2  |64                |128               
+dp_size_1         |0.1               |0.1               
+dense_size_1      |128               |64                
+wd_size_1         |0                 |0                 
+dense_size_2      |128               |64                
+wd_size_2         |0                 |0.1               
+dp_size_2         |0.1               |0.3               
+learning_rate     |0.01              |0.001             
+
+Epoch 1/10
+188/188 [==============================] - 121s 340ms/step - loss: 1.3386 - accuracy: 0.4747 - val_loss: 4.8215 - val_accuracy: 0.1958
+Epoch 2/10
+188/188 [==============================] - 54s 268ms/step - loss: 1.1215 - accuracy: 0.5713 - val_loss: 10.8023 - val_accuracy: 0.2708
+Epoch 3/10
+188/188 [==============================] - 33s 157ms/step - loss: 1.0573 - accuracy: 0.6028 - val_loss: 2.2213 - val_accuracy: 0.4533
+Epoch 4/10
+188/188 [==============================] - 26s 124ms/step - loss: 0.9769 - accuracy: 0.6333 - val_loss: 2.0399 - val_accuracy: 0.4758
+Epoch 5/10
+188/188 [==============================] - 27s 127ms/step - loss: 0.9217 - accuracy: 0.6680 - val_loss: 2.2520 - val_accuracy: 0.3767
+Epoch 6/10
+188/188 [==============================] - 28s 134ms/step - loss: 0.8855 - accuracy: 0.6858 - val_loss: 1.4990 - val_accuracy: 0.5233
+Epoch 7/10
+188/188 [==============================] - 31s 140ms/step - loss: 0.8581 - accuracy: 0.6932 - val_loss: 1.2620 - val_accuracy: 0.5317
+Epoch 8/10
+188/188 [==============================] - 32s 151ms/step - loss: 0.8142 - accuracy: 0.7158 - val_loss: 1.1433 - val_accuracy: 0.6133
+Epoch 9/10
+188/188 [==============================] - 31s 148ms/step - loss: 0.7674 - accuracy: 0.7295 - val_loss: 1.1311 - val_accuracy: 0.6342
+Epoch 10/10
+188/188 [==============================] - 25s 121ms/step - loss: 0.7518 - accuracy: 0.7403 - val_loss: 1.4167 - val_accuracy: 0.4883
+
+Trial 10 Complete [00h 08m 34s]
+val_accuracy: 0.6341666579246521
+
+Best val_accuracy So Far: 0.6341666579246521
+Total elapsed time: 01h 15m 54s
+
+Search: Running Trial #11
+
+Hyperparameter    |Value             |Best Value So Far 
+s1_filter_size_1  |128               |32                
+s2_filter_size_1  |64                |32                
+s2_filter_size_2  |64                |256               
+s3_filter_size_1  |256               |256               
+s3_filter_size_2  |64                |64                
+s4_filter_size_1  |32                |256               
+s4_filter_size_2  |256               |64                
+s5_filter_size_1  |32                |128               
+s5_filter_size_2  |64                |64                
+dp_size_1         |0                 |0.1               
+dense_size_1      |128               |128               
+wd_size_1         |0.001             |0                 
+dense_size_2      |256               |128               
+wd_size_2         |0.001             |0                 
+dp_size_2         |0.2               |0.1               
+learning_rate     |0.1               |0.01              
+
+Epoch 1/10
+188/188 [==============================] - 86s 235ms/step - loss: 4.1657 - accuracy: 0.1707 - val_loss: 2.4109 - val_accuracy: 0.1667
+Epoch 2/10
+188/188 [==============================] - 55s 264ms/step - loss: 2.1033 - accuracy: 0.1667 - val_loss: 1.9105 - val_accuracy: 0.1667
+Epoch 3/10
+188/188 [==============================] - 28s 132ms/step - loss: 1.8569 - accuracy: 0.1655 - val_loss: 1.8149 - val_accuracy: 0.1667
+Epoch 4/10
+188/188 [==============================] - 19s 97ms/step - loss: 1.8108 - accuracy: 0.1648 - val_loss: 1.7976 - val_accuracy: 0.1667
+Epoch 5/10
+188/188 [==============================] - 17s 93ms/step - loss: 1.8026 - accuracy: 0.1663 - val_loss: 1.7946 - val_accuracy: 0.1667
+Epoch 6/10
+188/188 [==============================] - 17s 93ms/step - loss: 1.8013 - accuracy: 0.1667 - val_loss: 1.7941 - val_accuracy: 0.1667
+Epoch 7/10
+188/188 [==============================] - 17s 93ms/step - loss: 1.8011 - accuracy: 0.1668 - val_loss: 1.7942 - val_accuracy: 0.1667
+Epoch 8/10
+188/188 [==============================] - 17s 93ms/step - loss: 1.8011 - accuracy: 0.1668 - val_loss: 1.7941 - val_accuracy: 0.1667
+Epoch 9/10
+188/188 [==============================] - 17s 92ms/step - loss: 1.8011 - accuracy: 0.1668 - val_loss: 1.7941 - val_accuracy: 0.1667
+Epoch 10/10
+188/188 [==============================] - 17s 93ms/step - loss: 1.8011 - accuracy: 0.1668 - val_loss: 1.7940 - val_accuracy: 0.1667
+
+Trial 11 Complete [00h 06m 13s]
+val_accuracy: 0.1666666716337204
+
+Best val_accuracy So Far: 0.6341666579246521
+Total elapsed time: 01h 22m 08s
+
+Search: Running Trial #12
+
+Hyperparameter    |Value             |Best Value So Far 
+s1_filter_size_1  |64                |32                
+s2_filter_size_1  |64                |32                
+s2_filter_size_2  |64                |256               
+s3_filter_size_1  |64                |256               
+s3_filter_size_2  |128               |64                
+s4_filter_size_1  |32                |256               
+s4_filter_size_2  |32                |64                
+s5_filter_size_1  |256               |128               
+s5_filter_size_2  |32                |64                
+dp_size_1         |0.1               |0.1               
+dense_size_1      |256               |128               
+wd_size_1         |0.1               |0                 
+dense_size_2      |128               |128               
+wd_size_2         |0.001             |0                 
+dp_size_2         |0.3               |0.1               
+learning_rate     |0.1               |0.01              
+
+Epoch 1/10
+188/188 [==============================] - 87s 215ms/step - loss: 4.6053 - accuracy: 0.1653 - val_loss: 1.9095 - val_accuracy: 0.1667
+Epoch 2/10
+188/188 [==============================] - 48s 235ms/step - loss: 1.8443 - accuracy: 0.1653 - val_loss: 1.8052 - val_accuracy: 0.1667
+Epoch 3/10
+188/188 [==============================] - 28s 130ms/step - loss: 1.8052 - accuracy: 0.1655 - val_loss: 1.7953 - val_accuracy: 0.1667
+Epoch 4/10
+188/188 [==============================] - 17s 84ms/step - loss: 1.8014 - accuracy: 0.1660 - val_loss: 1.7942 - val_accuracy: 0.1667
+Epoch 5/10
+188/188 [==============================] - 15s 81ms/step - loss: 1.8011 - accuracy: 0.1678 - val_loss: 1.7941 - val_accuracy: 0.1667
+Epoch 6/10
+188/188 [==============================] - 15s 81ms/step - loss: 1.8010 - accuracy: 0.1667 - val_loss: 1.7941 - val_accuracy: 0.1667
+Epoch 7/10
+188/188 [==============================] - 15s 80ms/step - loss: 1.8011 - accuracy: 0.1668 - val_loss: 1.7941 - val_accuracy: 0.1667
+Epoch 8/10
+188/188 [==============================] - 15s 80ms/step - loss: 1.8012 - accuracy: 0.1668 - val_loss: 1.7942 - val_accuracy: 0.1667
+Epoch 9/10
+188/188 [==============================] - 15s 80ms/step - loss: 1.8014 - accuracy: 0.1668 - val_loss: 1.7942 - val_accuracy: 0.1667
+
+Trial 12 Complete [00h 05m 15s]
+val_accuracy: 0.1666666716337204
+
+Best val_accuracy So Far: 0.6341666579246521
+Total elapsed time: 01h 27m 24s
+
+Search: Running Trial #13
+
+Hyperparameter    |Value             |Best Value So Far 
+s1_filter_size_1  |32                |32                
+s2_filter_size_1  |256               |32                
+s2_filter_size_2  |256               |256               
+s3_filter_size_1  |64                |256               
+s3_filter_size_2  |64                |64                
+s4_filter_size_1  |32                |256               
+s4_filter_size_2  |256               |64                
+s5_filter_size_1  |64                |128               
+s5_filter_size_2  |128               |64                
+dp_size_1         |0.3               |0.1               
+dense_size_1      |128               |128               
+wd_size_1         |0.1               |0                 
+dense_size_2      |64                |128               
+wd_size_2         |0                 |0                 
+dp_size_2         |0.2               |0.1               
+learning_rate     |0.01              |0.01              
+
+Epoch 1/10
+188/188 [==============================] - 114s 344ms/step - loss: 2.1361 - accuracy: 0.3935 - val_loss: 1.7960 - val_accuracy: 0.3867
+Epoch 2/10
+188/188 [==============================] - 52s 260ms/step - loss: 1.3549 - accuracy: 0.4963 - val_loss: 2.2472 - val_accuracy: 0.3825
+Epoch 3/10
+188/188 [==============================] - 33s 161ms/step - loss: 1.2396 - accuracy: 0.5448 - val_loss: 2.6517 - val_accuracy: 0.3258
+Epoch 4/10
+188/188 [==============================] - 28s 148ms/step - loss: 1.2176 - accuracy: 0.5573 - val_loss: 2.1654 - val_accuracy: 0.3467
+
+Trial 13 Complete [00h 04m 52s]
+val_accuracy: 0.3866666555404663
+
+Best val_accuracy So Far: 0.6341666579246521
+Total elapsed time: 01h 32m 16s
+
+Search: Running Trial #14
+
+Hyperparameter    |Value             |Best Value So Far 
+s1_filter_size_1  |256               |32                
+s2_filter_size_1  |256               |32                
+s2_filter_size_2  |64                |256               
+s3_filter_size_1  |128               |256               
+s3_filter_size_2  |32                |64                
+s4_filter_size_1  |64                |256               
+s4_filter_size_2  |128               |64                
+s5_filter_size_1  |64                |128               
+s5_filter_size_2  |64                |64                
+dp_size_1         |0.1               |0.1               
+dense_size_1      |256               |128               
+wd_size_1         |0                 |0                 
+dense_size_2      |128               |128               
+wd_size_2         |0.1               |0                 
+dp_size_2         |0.2               |0.1               
+learning_rate     |0.01              |0.01              
+
+Epoch 1/10
+188/188 [==============================] - 115s 347ms/step - loss: 2.0212 - accuracy: 0.4200 - val_loss: 5.3774 - val_accuracy: 0.2625
+Epoch 2/10
+188/188 [==============================] - 48s 240ms/step - loss: 1.1974 - accuracy: 0.5582 - val_loss: 3.7213 - val_accuracy: 0.3242
+Epoch 3/10
+188/188 [==============================] - 45s 218ms/step - loss: 1.1307 - accuracy: 0.5805 - val_loss: 3.3525 - val_accuracy: 0.3042
+Epoch 4/10
+188/188 [==============================] - 35s 171ms/step - loss: 1.0711 - accuracy: 0.6120 - val_loss: 3.5472 - val_accuracy: 0.3050
+Epoch 5/10
+188/188 [==============================] - 32s 159ms/step - loss: 1.0119 - accuracy: 0.6318 - val_loss: 4.7461 - val_accuracy: 0.3117
+Epoch 6/10
+188/188 [==============================] - 32s 157ms/step - loss: 0.9778 - accuracy: 0.6488 - val_loss: 2.6581 - val_accuracy: 0.4342
+Epoch 7/10
+188/188 [==============================] - 64s 324ms/step - loss: 0.9607 - accuracy: 0.6537 - val_loss: 2.0597 - val_accuracy: 0.4758
+Epoch 8/10
+188/188 [==============================] - 36s 173ms/step - loss: 0.9169 - accuracy: 0.6757 - val_loss: 1.4604 - val_accuracy: 0.5342
+Epoch 9/10
+188/188 [==============================] - 50s 250ms/step - loss: 0.8964 - accuracy: 0.6920 - val_loss: 1.8790 - val_accuracy: 0.4775
+Epoch 10/10
+188/188 [==============================] - 33s 160ms/step - loss: 0.8800 - accuracy: 0.7038 - val_loss: 1.1593 - val_accuracy: 0.6217
+
+Trial 14 Complete [00h 10m 35s]
+val_accuracy: 0.621666669845581
+
+Best val_accuracy So Far: 0.6341666579246521
+Total elapsed time: 01h 42m 52s
+
+Search: Running Trial #15
+
+Hyperparameter    |Value             |Best Value So Far 
+s1_filter_size_1  |128               |32                
+s2_filter_size_1  |128               |32                
+s2_filter_size_2  |256               |256               
+s3_filter_size_1  |64                |256               
+s3_filter_size_2  |256               |64                
+s4_filter_size_1  |32                |256               
+s4_filter_size_2  |256               |64                
+s5_filter_size_1  |32                |128               
+s5_filter_size_2  |64                |64                
+dp_size_1         |0.2               |0.1               
+dense_size_1      |64                |128               
+wd_size_1         |0.1               |0                 
+dense_size_2      |128               |128               
+wd_size_2         |0.001             |0                 
+dp_size_2         |0.1               |0.1               
+learning_rate     |0.001             |0.01              
+
+Epoch 1/10
+188/188 [==============================] - 124s 341ms/step - loss: 3.8000 - accuracy: 0.5357 - val_loss: 2.3730 - val_accuracy: 0.3492
+Epoch 2/10
+188/188 [==============================] - 59s 283ms/step - loss: 1.2609 - accuracy: 0.6508 - val_loss: 1.4291 - val_accuracy: 0.4983
+Epoch 3/10
+188/188 [==============================] - 37s 179ms/step - loss: 0.9807 - accuracy: 0.6942 - val_loss: 1.7080 - val_accuracy: 0.4550
+Epoch 4/10
+188/188 [==============================] - 53s 264ms/step - loss: 0.8884 - accuracy: 0.7270 - val_loss: 4.6744 - val_accuracy: 0.3150
+Epoch 5/10
+188/188 [==============================] - 34s 164ms/step - loss: 0.8263 - accuracy: 0.7492 - val_loss: 1.1095 - val_accuracy: 0.6283
+Epoch 6/10
+188/188 [==============================] - 50s 234ms/step - loss: 0.7333 - accuracy: 0.7798 - val_loss: 1.4272 - val_accuracy: 0.5850
+Epoch 7/10
+188/188 [==============================] - 40s 192ms/step - loss: 0.6845 - accuracy: 0.7932 - val_loss: 1.1376 - val_accuracy: 0.6317
+Epoch 8/10
+188/188 [==============================] - 52s 261ms/step - loss: 0.6237 - accuracy: 0.8152 - val_loss: 3.1245 - val_accuracy: 0.4408
+
+Trial 15 Complete [00h 10m 06s]
+val_accuracy: 0.6316666603088379
+
+Best val_accuracy So Far: 0.6341666579246521
+Total elapsed time: 01h 52m 58s
+
+Search: Running Trial #16
+
+Hyperparameter    |Value             |Best Value So Far 
+s1_filter_size_1  |128               |32                
+s2_filter_size_1  |64                |32                
+s2_filter_size_2  |256               |256               
+s3_filter_size_1  |256               |256               
+s3_filter_size_2  |128               |64                
+s4_filter_size_1  |256               |256               
+s4_filter_size_2  |64                |64                
+s5_filter_size_1  |32                |128               
+s5_filter_size_2  |32                |64                
+dp_size_1         |0                 |0.1               
+dense_size_1      |128               |128               
+wd_size_1         |0                 |0                 
+dense_size_2      |64                |128               
+wd_size_2         |0.001             |0                 
+dp_size_2         |0.1               |0.1               
+learning_rate     |0.1               |0.01              
+
+Epoch 1/10
+188/188 [==============================] - 128s 342ms/step - loss: 2.1841 - accuracy: 0.1732 - val_loss: 1.8611 - val_accuracy: 0.1667
+Epoch 2/10
+188/188 [==============================] - 51s 247ms/step - loss: 1.8309 - accuracy: 0.1652 - val_loss: 1.8044 - val_accuracy: 0.1667
+Epoch 3/10
+188/188 [==============================] - 31s 156ms/step - loss: 1.8056 - accuracy: 0.1657 - val_loss: 1.7956 - val_accuracy: 0.1667
+Epoch 4/10
+188/188 [==============================] - 29s 152ms/step - loss: 1.8017 - accuracy: 0.1670 - val_loss: 1.7942 - val_accuracy: 0.1667
+Epoch 5/10
+188/188 [==============================] - 27s 141ms/step - loss: 1.8011 - accuracy: 0.1668 - val_loss: 1.7940 - val_accuracy: 0.1667
+Epoch 6/10
+188/188 [==============================] - 26s 141ms/step - loss: 1.8011 - accuracy: 0.1670 - val_loss: 1.7940 - val_accuracy: 0.1667
+Epoch 7/10
+188/188 [==============================] - 26s 141ms/step - loss: 1.8011 - accuracy: 0.1668 - val_loss: 1.7940 - val_accuracy: 0.1667
+Epoch 8/10
+188/188 [==============================] - 26s 140ms/step - loss: 1.8011 - accuracy: 0.1668 - val_loss: 1.7940 - val_accuracy: 0.1667
+Epoch 9/10
+188/188 [==============================] - 26s 141ms/step - loss: 1.8011 - accuracy: 0.1668 - val_loss: 1.7940 - val_accuracy: 0.1667
+
+Trial 16 Complete [00h 08m 35s]
+val_accuracy: 0.1666666716337204
+
+Best val_accuracy So Far: 0.6341666579246521
+Total elapsed time: 02h 01m 34s
+
+Search: Running Trial #17
+
+Hyperparameter    |Value             |Best Value So Far 
+s1_filter_size_1  |64                |32                
+s2_filter_size_1  |128               |32                
+s2_filter_size_2  |64                |256               
+s3_filter_size_1  |64                |256               
+s3_filter_size_2  |64                |64                
+s4_filter_size_1  |256               |256               
+s4_filter_size_2  |256               |64                
+s5_filter_size_1  |256               |128               
+s5_filter_size_2  |64                |64                
+dp_size_1         |0.3               |0.1               
+dense_size_1      |256               |128               
+wd_size_1         |0.1               |0                 
+dense_size_2      |64                |128               
+wd_size_2         |0.1               |0                 
+dp_size_2         |0                 |0.1               
+learning_rate     |0.001             |0.01              
+
+Epoch 1/10
+188/188 [==============================] - 108s 324ms/step - loss: 6.7795 - accuracy: 0.5262 - val_loss: 1.7445 - val_accuracy: 0.5083
+Epoch 2/10
+188/188 [==============================] - 51s 253ms/step - loss: 1.2223 - accuracy: 0.6480 - val_loss: 1.9146 - val_accuracy: 0.4600
+Epoch 3/10
+188/188 [==============================] - 32s 154ms/step - loss: 1.0543 - accuracy: 0.6860 - val_loss: 2.4496 - val_accuracy: 0.3825
+Epoch 4/10
+188/188 [==============================] - 27s 142ms/step - loss: 0.9661 - accuracy: 0.7218 - val_loss: 1.7575 - val_accuracy: 0.4925
+
+Trial 17 Complete [00h 04m 36s]
+val_accuracy: 0.5083333253860474
+
+Best val_accuracy So Far: 0.6341666579246521
+Total elapsed time: 02h 06m 11s
+
+Search: Running Trial #18
+
+Hyperparameter    |Value             |Best Value So Far 
+s1_filter_size_1  |256               |32                
+s2_filter_size_1  |32                |32                
+s2_filter_size_2  |32                |256               
+s3_filter_size_1  |64                |256               
+s3_filter_size_2  |32                |64                
+s4_filter_size_1  |32                |256               
+s4_filter_size_2  |32                |64                
+s5_filter_size_1  |32                |128               
+s5_filter_size_2  |64                |64                
+dp_size_1         |0                 |0.1               
+dense_size_1      |256               |128               
+wd_size_1         |0.1               |0                 
+dense_size_2      |128               |128               
+wd_size_2         |0                 |0                 
+dp_size_2         |0.1               |0.1               
+learning_rate     |0.001             |0.01              
+
+Epoch 1/10
+188/188 [==============================] - 97s 251ms/step - loss: 4.0624 - accuracy: 0.4745 - val_loss: 1.8904 - val_accuracy: 0.3483
+Epoch 2/10
+188/188 [==============================] - 49s 245ms/step - loss: 1.1115 - accuracy: 0.6132 - val_loss: 1.5535 - val_accuracy: 0.4525
+Epoch 3/10
+188/188 [==============================] - 27s 118ms/step - loss: 0.9516 - accuracy: 0.6662 - val_loss: 1.2274 - val_accuracy: 0.5417
+Epoch 4/10
+188/188 [==============================] - 31s 145ms/step - loss: 0.8791 - accuracy: 0.7057 - val_loss: 1.8342 - val_accuracy: 0.4242
+Epoch 5/10
+188/188 [==============================] - 25s 125ms/step - loss: 0.8026 - accuracy: 0.7362 - val_loss: 1.3400 - val_accuracy: 0.5367
+Epoch 6/10
+188/188 [==============================] - 22s 107ms/step - loss: 0.7582 - accuracy: 0.7497 - val_loss: 1.2520 - val_accuracy: 0.5483
+
+Trial 18 Complete [00h 05m 19s]
+val_accuracy: 0.5483333468437195
+
+Best val_accuracy So Far: 0.6341666579246521
+Total elapsed time: 02h 11m 31s
+
+Search: Running Trial #19
+
+Hyperparameter    |Value             |Best Value So Far 
+s1_filter_size_1  |64                |32                
+s2_filter_size_1  |32                |32                
+s2_filter_size_2  |128               |256               
+s3_filter_size_1  |64                |256               
+s3_filter_size_2  |64                |64                
+s4_filter_size_1  |128               |256               
+s4_filter_size_2  |256               |64                
+s5_filter_size_1  |64                |128               
+s5_filter_size_2  |64                |64                
+dp_size_1         |0.2               |0.1               
+dense_size_1      |64                |128               
+wd_size_1         |0.001             |0                 
+dense_size_2      |128               |128               
+wd_size_2         |0.001             |0                 
+dp_size_2         |0.2               |0.1               
+learning_rate     |0.01              |0.01              
+
+Epoch 1/10
+188/188 [==============================] - 112s 341ms/step - loss: 1.4155 - accuracy: 0.4672 - val_loss: 3.5605 - val_accuracy: 0.3808
+Epoch 2/10
+188/188 [==============================] - 56s 282ms/step - loss: 1.1471 - accuracy: 0.5772 - val_loss: 3.9528 - val_accuracy: 0.3658
+Epoch 3/10
+188/188 [==============================] - 34s 162ms/step - loss: 1.0746 - accuracy: 0.6082 - val_loss: 1.4652 - val_accuracy: 0.5275
+Epoch 4/10
+188/188 [==============================] - 40s 183ms/step - loss: 1.0171 - accuracy: 0.6228 - val_loss: 2.3922 - val_accuracy: 0.4233
+Epoch 5/10
+188/188 [==============================] - 39s 186ms/step - loss: 0.9707 - accuracy: 0.6545 - val_loss: 1.3526 - val_accuracy: 0.5133
+Epoch 6/10
+188/188 [==============================] - 50s 251ms/step - loss: 0.9344 - accuracy: 0.6707 - val_loss: 1.8436 - val_accuracy: 0.4675
+Epoch 7/10
+188/188 [==============================] - 29s 148ms/step - loss: 0.9223 - accuracy: 0.6718 - val_loss: 1.6917 - val_accuracy: 0.4892
+Epoch 8/10
+188/188 [==============================] - 26s 134ms/step - loss: 0.8698 - accuracy: 0.6990 - val_loss: 1.6693 - val_accuracy: 0.5125
+
+Trial 19 Complete [00h 07m 35s]
+val_accuracy: 0.5274999737739563
+
+Best val_accuracy So Far: 0.6341666579246521
+Total elapsed time: 02h 19m 06s
+
+Search: Running Trial #20
+
+Hyperparameter    |Value             |Best Value So Far 
+s1_filter_size_1  |128               |32                
+s2_filter_size_1  |32                |32                
+s2_filter_size_2  |256               |256               
+s3_filter_size_1  |128               |256               
+s3_filter_size_2  |256               |64                
+s4_filter_size_1  |32                |256               
+s4_filter_size_2  |64                |64                
+s5_filter_size_1  |256               |128               
+s5_filter_size_2  |32                |64                
+dp_size_1         |0.2               |0.1               
+dense_size_1      |256               |128               
+wd_size_1         |0                 |0                 
+dense_size_2      |256               |128               
+wd_size_2         |0                 |0                 
+dp_size_2         |0.2               |0.1               
+learning_rate     |0.01              |0.01              
+
+Epoch 1/10
+188/188 [==============================] - 116s 334ms/step - loss: 1.4053 - accuracy: 0.4168 - val_loss: 8.2434 - val_accuracy: 0.2508
+Epoch 2/10
+188/188 [==============================] - 59s 294ms/step - loss: 1.1728 - accuracy: 0.5333 - val_loss: 4.2973 - val_accuracy: 0.2942
+Epoch 3/10
+188/188 [==============================] - 39s 184ms/step - loss: 1.0879 - accuracy: 0.5780 - val_loss: 4.0770 - val_accuracy: 0.2842
+Epoch 4/10
+188/188 [==============================] - 30s 146ms/step - loss: 1.0340 - accuracy: 0.6160 - val_loss: 4.2782 - val_accuracy: 0.2533
+Epoch 5/10
+188/188 [==============================] - 46s 230ms/step - loss: 1.0125 - accuracy: 0.6250 - val_loss: 2.2440 - val_accuracy: 0.3808
+Epoch 6/10
+188/188 [==============================] - 38s 188ms/step - loss: 0.9666 - accuracy: 0.6518 - val_loss: 1.2603 - val_accuracy: 0.5042
+Epoch 7/10
+188/188 [==============================] - 39s 195ms/step - loss: 0.9417 - accuracy: 0.6600 - val_loss: 1.9308 - val_accuracy: 0.5000
+Epoch 8/10
+188/188 [==============================] - 33s 158ms/step - loss: 0.8933 - accuracy: 0.6770 - val_loss: 1.0710 - val_accuracy: 0.5942
+Epoch 9/10
+188/188 [==============================] - 30s 145ms/step - loss: 0.8804 - accuracy: 0.6890 - val_loss: 4.6550 - val_accuracy: 0.3425
+Epoch 10/10
+188/188 [==============================] - 33s 158ms/step - loss: 0.8390 - accuracy: 0.7060 - val_loss: 1.7247 - val_accuracy: 0.4892
+
+Trial 20 Complete [00h 09m 44s]
+val_accuracy: 0.5941666960716248
+
+Best val_accuracy So Far: 0.6341666579246521
+Total elapsed time: 02h 28m 51s
+
+Search: Running Trial #21
+
+Hyperparameter    |Value             |Best Value So Far 
+s1_filter_size_1  |128               |32                
+s2_filter_size_1  |256               |32                
+s2_filter_size_2  |64                |256               
+s3_filter_size_1  |128               |256               
+s3_filter_size_2  |32                |64                
+s4_filter_size_1  |128               |256               
+s4_filter_size_2  |256               |64                
+s5_filter_size_1  |32                |128               
+s5_filter_size_2  |64                |64                
+dp_size_1         |0                 |0.1               
+dense_size_1      |128               |128               
+wd_size_1         |0.1               |0                 
+dense_size_2      |64                |128               
+wd_size_2         |0                 |0                 
+dp_size_2         |0.2               |0.1               
+learning_rate     |0.01              |0.01              
+
+Epoch 1/10
+188/188 [==============================] - 106s 309ms/step - loss: 1.7481 - accuracy: 0.4595 - val_loss: 1.7957 - val_accuracy: 0.4700
+Epoch 2/10
+188/188 [==============================] - 72s 361ms/step - loss: 1.2307 - accuracy: 0.5490 - val_loss: 2.0055 - val_accuracy: 0.4100
+Epoch 3/10
+188/188 [==============================] - 32s 154ms/step - loss: 1.1297 - accuracy: 0.5838 - val_loss: 1.4896 - val_accuracy: 0.5033
+Epoch 4/10
+188/188 [==============================] - 40s 183ms/step - loss: 1.0651 - accuracy: 0.6117 - val_loss: 1.4799 - val_accuracy: 0.5133
+Epoch 5/10
+188/188 [==============================] - 36s 173ms/step - loss: 1.0415 - accuracy: 0.6198 - val_loss: 4.5693 - val_accuracy: 0.2992
+Epoch 6/10
+188/188 [==============================] - 41s 185ms/step - loss: 0.9796 - accuracy: 0.6483 - val_loss: 1.4045 - val_accuracy: 0.5667
+Epoch 7/10
+188/188 [==============================] - 35s 169ms/step - loss: 0.9489 - accuracy: 0.6583 - val_loss: 1.6342 - val_accuracy: 0.5317
+Epoch 8/10
+188/188 [==============================] - 46s 218ms/step - loss: 0.9054 - accuracy: 0.6762 - val_loss: 1.1166 - val_accuracy: 0.6000
+Epoch 9/10
+188/188 [==============================] - 36s 171ms/step - loss: 0.8717 - accuracy: 0.6937 - val_loss: 1.2076 - val_accuracy: 0.5750
+Epoch 10/10
+188/188 [==============================] - 48s 236ms/step - loss: 0.8612 - accuracy: 0.7103 - val_loss: 1.1857 - val_accuracy: 0.6150
+
+Trial 21 Complete [00h 11m 41s]
+val_accuracy: 0.6150000095367432
+
+Best val_accuracy So Far: 0.6341666579246521
+Total elapsed time: 02h 40m 32s
+
+Search: Running Trial #22
+
+Hyperparameter    |Value             |Best Value So Far 
+s1_filter_size_1  |32                |32                
+s2_filter_size_1  |32                |32                
+s2_filter_size_2  |128               |256               
+s3_filter_size_1  |128               |256               
+s3_filter_size_2  |256               |64                
+s4_filter_size_1  |64                |256               
+s4_filter_size_2  |256               |64                
+s5_filter_size_1  |256               |128               
+s5_filter_size_2  |64                |64                
+dp_size_1         |0.2               |0.1               
+dense_size_1      |64                |128               
+wd_size_1         |0.1               |0                 
+dense_size_2      |256               |128               
+wd_size_2         |0                 |0                 
+dp_size_2         |0.3               |0.1               
+learning_rate     |0.01              |0.01              
+
+Epoch 1/10
+188/188 [==============================] - 101s 291ms/step - loss: 1.7613 - accuracy: 0.4098 - val_loss: 3.4083 - val_accuracy: 0.1550
+Epoch 2/10
+188/188 [==============================] - 61s 303ms/step - loss: 1.2348 - accuracy: 0.5338 - val_loss: 1.6708 - val_accuracy: 0.4958
+Epoch 3/10
+188/188 [==============================] - 37s 177ms/step - loss: 1.1379 - accuracy: 0.5833 - val_loss: 3.3400 - val_accuracy: 0.3050
+Epoch 4/10
+188/188 [==============================] - 36s 162ms/step - loss: 1.0870 - accuracy: 0.5990 - val_loss: 3.6882 - val_accuracy: 0.2600
+Epoch 5/10
+188/188 [==============================] - 26s 126ms/step - loss: 1.0594 - accuracy: 0.6205 - val_loss: 2.2715 - val_accuracy: 0.3992
+
+Trial 22 Complete [00h 05m 30s]
+val_accuracy: 0.4958333373069763
+
+Best val_accuracy So Far: 0.6341666579246521
+Total elapsed time: 02h 46m 03s
+
+Search: Running Trial #23
+
+Hyperparameter    |Value             |Best Value So Far 
+s1_filter_size_1  |256               |32                
+s2_filter_size_1  |64                |32                
+s2_filter_size_2  |256               |256               
+s3_filter_size_1  |256               |256               
+s3_filter_size_2  |64                |64                
+s4_filter_size_1  |256               |256               
+s4_filter_size_2  |32                |64                
+s5_filter_size_1  |256               |128               
+s5_filter_size_2  |256               |64                
+dp_size_1         |0.1               |0.1               
+dense_size_1      |64                |128               
+wd_size_1         |0.1               |0                 
+dense_size_2      |256               |128               
+wd_size_2         |0                 |0                 
+dp_size_2         |0.2               |0.1               
+learning_rate     |0.1               |0.01              
+
+Epoch 1/10
+188/188 [==============================] - 106s 337ms/step - loss: 11.0681 - accuracy: 0.1797 - val_loss: 1.7941 - val_accuracy: 0.1667
+Epoch 2/10
+188/188 [==============================] - 64s 314ms/step - loss: 1.8003 - accuracy: 0.1655 - val_loss: 1.7941 - val_accuracy: 0.1667
+Epoch 3/10
+188/188 [==============================] - 45s 223ms/step - loss: 1.8007 - accuracy: 0.1640 - val_loss: 1.7941 - val_accuracy: 0.1667
+Epoch 4/10
+188/188 [==============================] - 41s 211ms/step - loss: 1.8009 - accuracy: 0.1655 - val_loss: 1.7940 - val_accuracy: 0.1667
+Epoch 5/10
+188/188 [==============================] - 41s 210ms/step - loss: 1.8010 - accuracy: 0.1663 - val_loss: 1.7941 - val_accuracy: 0.1667
+Epoch 6/10
+188/188 [==============================] - 44s 222ms/step - loss: 1.8011 - accuracy: 0.1668 - val_loss: 1.7942 - val_accuracy: 0.1667
+Epoch 7/10
+188/188 [==============================] - 42s 208ms/step - loss: 1.8013 - accuracy: 0.1668 - val_loss: 1.7941 - val_accuracy: 0.1667
+
+Trial 23 Complete [00h 08m 08s]
+val_accuracy: 0.1666666716337204
+
+Best val_accuracy So Far: 0.6341666579246521
+Total elapsed time: 02h 54m 11s
+
+Search: Running Trial #24
+
+Hyperparameter    |Value             |Best Value So Far 
+s1_filter_size_1  |128               |32                
+s2_filter_size_1  |128               |32                
+s2_filter_size_2  |32                |256               
+s3_filter_size_1  |64                |256               
+s3_filter_size_2  |256               |64                
+s4_filter_size_1  |32                |256               
+s4_filter_size_2  |128               |64                
+s5_filter_size_1  |64                |128               
+s5_filter_size_2  |32                |64                
+dp_size_1         |0.1               |0.1               
+dense_size_1      |256               |128               
+wd_size_1         |0.1               |0                 
+dense_size_2      |128               |128               
+wd_size_2         |0                 |0                 
+dp_size_2         |0.1               |0.1               
+learning_rate     |0.01              |0.01              
+
+Epoch 1/10
+188/188 [==============================] - 104s 273ms/step - loss: 1.6237 - accuracy: 0.4073 - val_loss: 4.5251 - val_accuracy: 0.2258
+Epoch 2/10
+188/188 [==============================] - 60s 298ms/step - loss: 1.2579 - accuracy: 0.4752 - val_loss: 6.4456 - val_accuracy: 0.3100
+Epoch 3/10
+188/188 [==============================] - 49s 238ms/step - loss: 1.1843 - accuracy: 0.5200 - val_loss: 4.2327 - val_accuracy: 0.3442
+Epoch 4/10
+188/188 [==============================] - 29s 141ms/step - loss: 1.1136 - accuracy: 0.5598 - val_loss: 1.4182 - val_accuracy: 0.4867
+Epoch 5/10
+188/188 [==============================] - 36s 161ms/step - loss: 1.0974 - accuracy: 0.5737 - val_loss: 1.7242 - val_accuracy: 0.4300
+Epoch 6/10
+188/188 [==============================] - 47s 216ms/step - loss: 1.0170 - accuracy: 0.6122 - val_loss: 1.3494 - val_accuracy: 0.5150
+Epoch 7/10
+188/188 [==============================] - 52s 260ms/step - loss: 0.9954 - accuracy: 0.6268 - val_loss: 1.2846 - val_accuracy: 0.5517
+Epoch 8/10
+188/188 [==============================] - 45s 221ms/step - loss: 0.9647 - accuracy: 0.6425 - val_loss: 1.4014 - val_accuracy: 0.4983
+Epoch 9/10
+188/188 [==============================] - 37s 166ms/step - loss: 0.9302 - accuracy: 0.6545 - val_loss: 1.3804 - val_accuracy: 0.5350
+Epoch 10/10
+188/188 [==============================] - 37s 179ms/step - loss: 0.8952 - accuracy: 0.6813 - val_loss: 1.6162 - val_accuracy: 0.5242
+
+Trial 24 Complete [00h 10m 02s]
+val_accuracy: 0.5516666769981384
+
+Best val_accuracy So Far: 0.6341666579246521
+Total elapsed time: 03h 04m 14s
+
+Search: Running Trial #25
+
+Hyperparameter    |Value             |Best Value So Far 
+s1_filter_size_1  |128               |32                
+s2_filter_size_1  |256               |32                
+s2_filter_size_2  |32                |256               
+s3_filter_size_1  |32                |256               
+s3_filter_size_2  |64                |64                
+s4_filter_size_1  |128               |256               
+s4_filter_size_2  |256               |64                
+s5_filter_size_1  |256               |128               
+s5_filter_size_2  |32                |64                
+dp_size_1         |0.3               |0.1               
+dense_size_1      |64                |128               
+wd_size_1         |0                 |0                 
+dense_size_2      |64                |128               
+wd_size_2         |0.1               |0                 
+dp_size_2         |0.3               |0.1               
+learning_rate     |0.001             |0.01              
+
+Epoch 1/10
+188/188 [==============================] - 117s 327ms/step - loss: 3.9122 - accuracy: 0.4552 - val_loss: 2.2211 - val_accuracy: 0.3850
+Epoch 2/10
+188/188 [==============================] - 58s 289ms/step - loss: 1.3390 - accuracy: 0.5973 - val_loss: 1.5924 - val_accuracy: 0.4558
+Epoch 3/10
+188/188 [==============================] - 41s 201ms/step - loss: 1.0484 - accuracy: 0.6517 - val_loss: 1.3471 - val_accuracy: 0.4742
+Epoch 4/10
+188/188 [==============================] - 47s 238ms/step - loss: 0.9463 - accuracy: 0.6880 - val_loss: 1.2512 - val_accuracy: 0.5625
+Epoch 5/10
+188/188 [==============================] - 57s 287ms/step - loss: 0.8836 - accuracy: 0.7202 - val_loss: 2.1639 - val_accuracy: 0.4317
+Epoch 6/10
+188/188 [==============================] - 29s 138ms/step - loss: 0.8375 - accuracy: 0.7372 - val_loss: 2.0695 - val_accuracy: 0.4592
+Epoch 7/10
+188/188 [==============================] - 25s 128ms/step - loss: 0.7741 - accuracy: 0.7597 - val_loss: 2.0836 - val_accuracy: 0.4633
+
+Trial 25 Complete [00h 07m 47s]
+val_accuracy: 0.5625
+
+Best val_accuracy So Far: 0.6341666579246521
+Total elapsed time: 03h 12m 02s
+
+Search: Running Trial #26
+
+Hyperparameter    |Value             |Best Value So Far 
+s1_filter_size_1  |256               |32                
+s2_filter_size_1  |64                |32                
+s2_filter_size_2  |128               |256               
+s3_filter_size_1  |64                |256               
+s3_filter_size_2  |128               |64                
+s4_filter_size_1  |128               |256               
+s4_filter_size_2  |32                |64                
+s5_filter_size_1  |128               |128               
+s5_filter_size_2  |128               |64                
+dp_size_1         |0.1               |0.1               
+dense_size_1      |64                |128               
+wd_size_1         |0.001             |0                 
+dense_size_2      |64                |128               
+wd_size_2         |0.001             |0                 
+dp_size_2         |0                 |0.1               
+learning_rate     |0.1               |0.01              
+
+Epoch 1/10
+188/188 [==============================] - 102s 282ms/step - loss: 2.6863 - accuracy: 0.1655 - val_loss: 1.9458 - val_accuracy: 0.1667
+Epoch 2/10
+188/188 [==============================] - 49s 240ms/step - loss: 1.8789 - accuracy: 0.1637 - val_loss: 1.8332 - val_accuracy: 0.1667
+Epoch 3/10
+188/188 [==============================] - 41s 196ms/step - loss: 1.8256 - accuracy: 0.1640 - val_loss: 1.8091 - val_accuracy: 0.1667
+Epoch 4/10
+188/188 [==============================] - 23s 118ms/step - loss: 1.8108 - accuracy: 0.1677 - val_loss: 1.8002 - val_accuracy: 0.1667
+Epoch 5/10
+188/188 [==============================] - 22s 117ms/step - loss: 1.8050 - accuracy: 0.1678 - val_loss: 1.7966 - val_accuracy: 0.1667
+Epoch 6/10
+188/188 [==============================] - 22s 117ms/step - loss: 1.8027 - accuracy: 0.1667 - val_loss: 1.7951 - val_accuracy: 0.1667
+Epoch 7/10
+188/188 [==============================] - 22s 117ms/step - loss: 1.8017 - accuracy: 0.1668 - val_loss: 1.7944 - val_accuracy: 0.1667
+Epoch 8/10
+188/188 [==============================] - 22s 117ms/step - loss: 1.8012 - accuracy: 0.1670 - val_loss: 1.7941 - val_accuracy: 0.1667
+Epoch 9/10
+188/188 [==============================] - 22s 117ms/step - loss: 1.8012 - accuracy: 0.1670 - val_loss: 1.7941 - val_accuracy: 0.1667
+Epoch 10/10
+188/188 [==============================] - 22s 117ms/step - loss: 1.8011 - accuracy: 0.1670 - val_loss: 1.7940 - val_accuracy: 0.1667
+
+Trial 26 Complete [00h 06m 46s]
+val_accuracy: 0.1666666716337204
+
+Best val_accuracy So Far: 0.6341666579246521
+Total elapsed time: 03h 18m 48s
+
+Search: Running Trial #27
+
+Hyperparameter    |Value             |Best Value So Far 
+s1_filter_size_1  |256               |32                
+s2_filter_size_1  |128               |32                
+s2_filter_size_2  |32                |256               
+s3_filter_size_1  |64                |256               
+s3_filter_size_2  |32                |64                
+s4_filter_size_1  |256               |256               
+s4_filter_size_2  |32                |64                
+s5_filter_size_1  |64                |128               
+s5_filter_size_2  |32                |64                
+dp_size_1         |0.1               |0.1               
+dense_size_1      |64                |128               
+wd_size_1         |0                 |0                 
+dense_size_2      |256               |128               
+wd_size_2         |0.1               |0                 
+dp_size_2         |0.3               |0.1               
+learning_rate     |0.1               |0.01              
+
+Epoch 1/10
+188/188 [==============================] - 96s 259ms/step - loss: 3.1882 - accuracy: 0.1697 - val_loss: 1.7940 - val_accuracy: 0.1667
+Epoch 2/10
+188/188 [==============================] - 54s 261ms/step - loss: 1.8005 - accuracy: 0.1667 - val_loss: 1.7940 - val_accuracy: 0.1667
+Epoch 3/10
+188/188 [==============================] - 38s 185ms/step - loss: 1.8009 - accuracy: 0.1648 - val_loss: 1.7941 - val_accuracy: 0.1667
+Epoch 4/10
+188/188 [==============================] - 29s 140ms/step - loss: 1.8011 - accuracy: 0.1648 - val_loss: 1.7942 - val_accuracy: 0.1667
+
+Trial 27 Complete [00h 04m 35s]
+val_accuracy: 0.1666666716337204
+
+Best val_accuracy So Far: 0.6341666579246521
+Total elapsed time: 03h 23m 23s
+
+Search: Running Trial #28
+
+Hyperparameter    |Value             |Best Value So Far 
+s1_filter_size_1  |128               |32                
+s2_filter_size_1  |32                |32                
+s2_filter_size_2  |128               |256               
+s3_filter_size_1  |32                |256               
+s3_filter_size_2  |256               |64                
+s4_filter_size_1  |128               |256               
+s4_filter_size_2  |128               |64                
+s5_filter_size_1  |64                |128               
+s5_filter_size_2  |64                |64                
+dp_size_1         |0.2               |0.1               
+dense_size_1      |256               |128               
+wd_size_1         |0                 |0                 
+dense_size_2      |64                |128               
+wd_size_2         |0                 |0                 
+dp_size_2         |0.3               |0.1               
+learning_rate     |0.001             |0.01              
+
+Epoch 1/10
+188/188 [==============================] - 126s 338ms/step - loss: 1.3221 - accuracy: 0.4868 - val_loss: 1.3424 - val_accuracy: 0.4667
+Epoch 2/10
+188/188 [==============================] - 53s 261ms/step - loss: 1.0657 - accuracy: 0.6080 - val_loss: 3.0394 - val_accuracy: 0.3333
+Epoch 3/10
+188/188 [==============================] - 39s 194ms/step - loss: 0.9566 - accuracy: 0.6488 - val_loss: 1.2910 - val_accuracy: 0.5142
+Epoch 4/10
+188/188 [==============================] - 37s 172ms/step - loss: 0.8807 - accuracy: 0.6865 - val_loss: 1.3162 - val_accuracy: 0.5467
+Epoch 5/10
+188/188 [==============================] - 31s 150ms/step - loss: 0.8167 - accuracy: 0.7247 - val_loss: 1.4068 - val_accuracy: 0.4783
+Epoch 6/10
+188/188 [==============================] - 44s 215ms/step - loss: 0.7492 - accuracy: 0.7478 - val_loss: 2.9654 - val_accuracy: 0.4325
+Trial 28 Complete [00h 07m 07s]
+val_accuracy: 0.54666668176651
+
+Best val_accuracy So Far: 0.6341666579246521
+Total elapsed time: 03h 30m 31s
+
+Search: Running Trial #29
+
+Hyperparameter    |Value             |Best Value So Far 
+s1_filter_size_1  |256               |32                
+s2_filter_size_1  |64                |32                
+s2_filter_size_2  |32                |256               
+s3_filter_size_1  |128               |256               
+s3_filter_size_2  |32                |64                
+s4_filter_size_1  |64                |256               
+s4_filter_size_2  |32                |64                
+s5_filter_size_1  |256               |128               
+s5_filter_size_2  |128               |64                
+dp_size_1         |0.3               |0.1               
+dense_size_1      |128               |128               
+wd_size_1         |0.001             |0                 
+dense_size_2      |64                |128               
+wd_size_2         |0.1               |0                 
+dp_size_2         |0                 |0.1               
+learning_rate     |0.01              |0.01              
+
+Epoch 1/10
+188/188 [==============================] - 112s 319ms/step - loss: 1.8649 - accuracy: 0.4462 - val_loss: 4.6017 - val_accuracy: 0.3008
+Epoch 2/10
+188/188 [==============================] - 59s 287ms/step - loss: 1.2052 - accuracy: 0.5328 - val_loss: 1.7789 - val_accuracy: 0.4992
+Epoch 3/10
+188/188 [==============================] - 39s 186ms/step - loss: 1.1064 - accuracy: 0.5772 - val_loss: 3.2447 - val_accuracy: 0.4075
+Epoch 4/10
+188/188 [==============================] - 32s 156ms/step - loss: 1.0291 - accuracy: 0.6162 - val_loss: 1.8915 - val_accuracy: 0.4725
+Epoch 5/10
+188/188 [==============================] - 26s 126ms/step - loss: 0.9868 - accuracy: 0.6335 - val_loss: 1.4834 - val_accuracy: 0.5283
+Epoch 6/10
+188/188 [==============================] - 23s 117ms/step - loss: 0.9445 - accuracy: 0.6485 - val_loss: 2.8796 - val_accuracy: 0.3533
+Epoch 7/10
+188/188 [==============================] - 22s 115ms/step - loss: 0.9239 - accuracy: 0.6640 - val_loss: 2.8482 - val_accuracy: 0.3267
+Epoch 8/10
+188/188 [==============================] - 21s 114ms/step - loss: 0.9057 - accuracy: 0.6710 - val_loss: 3.1961 - val_accuracy: 0.3333
+Trial 29 Complete [00h 07m 16s]
+val_accuracy: 0.528333306312561
+
+Best val_accuracy So Far: 0.6341666579246521
+Total elapsed time: 03h 37m 47s
+
+Search: Running Trial #30
+
+Hyperparameter    |Value             |Best Value So Far 
+s1_filter_size_1  |128               |32                
+s2_filter_size_1  |64                |32                
+s2_filter_size_2  |64                |256               
+s3_filter_size_1  |256               |256               
+s3_filter_size_2  |32                |64                
+s4_filter_size_1  |256               |256               
+s4_filter_size_2  |256               |64                
+s5_filter_size_1  |256               |128               
+s5_filter_size_2  |64                |64                
+dp_size_1         |0.2               |0.1               
+dense_size_1      |256               |128               
+wd_size_1         |0.1               |0                 
+dense_size_2      |128               |128               
+wd_size_2         |0                 |0                 
+dp_size_2         |0.3               |0.1               
+learning_rate     |0.01              |0.01              
+
+Epoch 1/10
+188/188 [==============================] - 98s 274ms/step - loss: 2.0752 - accuracy: 0.3032 - val_loss: 2.3922 - val_accuracy: 0.2367
+Epoch 2/10
+188/188 [==============================] - 52s 249ms/step - loss: 1.4434 - accuracy: 0.4288 - val_loss: 2.0970 - val_accuracy: 0.2733
+Epoch 3/10
+188/188 [==============================] - 36s 174ms/step - loss: 1.3208 - accuracy: 0.4468 - val_loss: 1.4410 - val_accuracy: 0.4083
+Epoch 4/10
+188/188 [==============================] - 43s 210ms/step - loss: 1.2600 - accuracy: 0.4783 - val_loss: 1.9838 - val_accuracy: 0.3533
+Epoch 5/10
+188/188 [==============================] - 33s 159ms/step - loss: 1.1983 - accuracy: 0.5110 - val_loss: 1.5655 - val_accuracy: 0.4400
+Epoch 6/10
+188/188 [==============================] - 48s 237ms/step - loss: 1.1673 - accuracy: 0.5427 - val_loss: 1.6574 - val_accuracy: 0.4808
+Trial 30 Complete [00h 07m 23s]
+val_accuracy: 0.4808333218097687
+
+Best val_accuracy So Far: 0.6341666579246521
+Total elapsed time: 03h 45m 11s
+
+Search: Running Trial #31
+
+Hyperparameter    |Value             |Best Value So Far 
+s1_filter_size_1  |128               |32                
+s2_filter_size_1  |32                |32                
+s2_filter_size_2  |256               |256               
+s3_filter_size_1  |128               |256               
+s3_filter_size_2  |64                |64                
+s4_filter_size_1  |128               |256               
+s4_filter_size_2  |128               |64                
+s5_filter_size_1  |128               |128               
+s5_filter_size_2  |256               |64                
+dp_size_1         |0.1               |0.1               
+dense_size_1      |64                |128               
+wd_size_1         |0                 |0                 
+dense_size_2      |128               |128               
+wd_size_2         |0.001             |0                 
+dp_size_2         |0.3               |0.1               
+learning_rate     |0.01              |0.01              
+
+Epoch 1/10
+188/188 [==============================] - 119s 320ms/step - loss: 1.4303 - accuracy: 0.4435 - val_loss: 3.2681 - val_accuracy: 0.2600
+Epoch 2/10
+188/188 [==============================] - 59s 301ms/step - loss: 1.1854 - accuracy: 0.5472 - val_loss: 3.0610 - val_accuracy: 0.3642
+Epoch 3/10
+188/188 [==============================] - 41s 193ms/step - loss: 1.0848 - accuracy: 0.5890 - val_loss: 1.2833 - val_accuracy: 0.5100
+Epoch 4/10
+188/188 [==============================] - 38s 186ms/step - loss: 1.0169 - accuracy: 0.6165 - val_loss: 1.6206 - val_accuracy: 0.4742
+Epoch 5/10
+188/188 [==============================] - 28s 132ms/step - loss: 0.9835 - accuracy: 0.6450 - val_loss: 2.6189 - val_accuracy: 0.3392
+Epoch 6/10
+188/188 [==============================] - 22s 114ms/step - loss: 0.9495 - accuracy: 0.6642 - val_loss: 1.4319 - val_accuracy: 0.5117
+Trial 31 Complete [00h 06m 57s]
+val_accuracy: 0.5116666555404663
+
+Best val_accuracy So Far: 0.6341666579246521
+Total elapsed time: 03h 52m 09s
+
+Search: Running Trial #32
+
+Hyperparameter    |Value             |Best Value So Far 
+s1_filter_size_1  |32                |32                
+s2_filter_size_1  |32                |32                
+s2_filter_size_2  |256               |256               
+s3_filter_size_1  |128               |256               
+s3_filter_size_2  |256               |64                
+s4_filter_size_1  |32                |256               
+s4_filter_size_2  |32                |64                
+s5_filter_size_1  |128               |128               
+s5_filter_size_2  |128               |64                
+dp_size_1         |0                 |0.1               
+dense_size_1      |128               |128               
+wd_size_1         |0.001             |0                 
+dense_size_2      |128               |128               
+wd_size_2         |0.1               |0                 
+dp_size_2         |0.2               |0.1               
+learning_rate     |0.01              |0.01              
+
+Epoch 1/10
+188/188 [==============================] - 90s 250ms/step - loss: 2.0428 - accuracy: 0.4562 - val_loss: 2.4117 - val_accuracy: 0.4308
+Epoch 2/10
+188/188 [==============================] - 44s 204ms/step - loss: 1.2442 - accuracy: 0.5310 - val_loss: 1.2832 - val_accuracy: 0.5592
+Epoch 3/10
+188/188 [==============================] - 32s 155ms/step - loss: 1.1356 - accuracy: 0.5813 - val_loss: 2.2515 - val_accuracy: 0.3225
+Epoch 4/10
+188/188 [==============================] - 33s 154ms/step - loss: 1.0838 - accuracy: 0.6017 - val_loss: 1.7944 - val_accuracy: 0.4067
+Epoch 5/10
+188/188 [==============================] - 38s 187ms/step - loss: 1.0363 - accuracy: 0.6235 - val_loss: 2.0113 - val_accuracy: 0.4117
+Trial 32 Complete [00h 05m 45s]
+val_accuracy: 0.559166669845581
+
+Best val_accuracy So Far: 0.6341666579246521
+Total elapsed time: 03h 57m 54s
+
+Search: Running Trial #33
+
+Hyperparameter    |Value             |Best Value So Far 
+s1_filter_size_1  |32                |32                
+s2_filter_size_1  |64                |32                
+s2_filter_size_2  |256               |256               
+s3_filter_size_1  |32                |256               
+s3_filter_size_2  |32                |64                
+s4_filter_size_1  |64                |256               
+s4_filter_size_2  |32                |64                
+s5_filter_size_1  |64                |128               
+s5_filter_size_2  |128               |64                
+dp_size_1         |0                 |0.1               
+dense_size_1      |256               |128               
+wd_size_1         |0                 |0                 
+dense_size_2      |128               |128               
+wd_size_2         |0.1               |0                 
+dp_size_2         |0.1               |0.1               
+learning_rate     |0.01              |0.01              
+
+Epoch 1/10
+188/188 [==============================] - 93s 243ms/step - loss: 2.0892 - accuracy: 0.4235 - val_loss: 2.0080 - val_accuracy: 0.4342
+Epoch 2/10
+188/188 [==============================] - 49s 236ms/step - loss: 1.1924 - accuracy: 0.5642 - val_loss: 1.3596 - val_accuracy: 0.5333
+Epoch 3/10
+188/188 [==============================] - 34s 158ms/step - loss: 1.0964 - accuracy: 0.6068 - val_loss: 2.9566 - val_accuracy: 0.3567
+Epoch 4/10
+188/188 [==============================] - 29s 138ms/step - loss: 1.0155 - accuracy: 0.6365 - val_loss: 3.6428 - val_accuracy: 0.3083
+Epoch 5/10
+188/188 [==============================] - 39s 184ms/step - loss: 0.9992 - accuracy: 0.6513 - val_loss: 4.5505 - val_accuracy: 0.3267
+Trial 33 Complete [00h 05m 12s]
+val_accuracy: 0.5333333611488342
+
+Best val_accuracy So Far: 0.6341666579246521
+Total elapsed time: 04h 03m 08s
+
+Search: Running Trial #34
+
+Hyperparameter    |Value             |Best Value So Far 
+s1_filter_size_1  |64                |32                
+s2_filter_size_1  |128               |32                
+s2_filter_size_2  |64                |256               
+s3_filter_size_1  |32                |256               
+s3_filter_size_2  |64                |64                
+s4_filter_size_1  |256               |256               
+s4_filter_size_2  |256               |64                
+s5_filter_size_1  |32                |128               
+s5_filter_size_2  |256               |64                
+dp_size_1         |0.3               |0.1               
+dense_size_1      |128               |128               
+wd_size_1         |0.1               |0                 
+dense_size_2      |128               |128               
+wd_size_2         |0                 |0                 
+dp_size_2         |0.3               |0.1               
+learning_rate     |0.001             |0.01              
+
+Epoch 1/10
+188/188 [==============================] - 105s 326ms/step - loss: 6.4350 - accuracy: 0.4802 - val_loss: 1.8328 - val_accuracy: 0.4500
+Epoch 2/10
+188/188 [==============================] - 69s 350ms/step - loss: 1.1957 - accuracy: 0.6320 - val_loss: 1.3822 - val_accuracy: 0.5042
+Epoch 3/10
+188/188 [==============================] - 44s 220ms/step - loss: 0.9720 - accuracy: 0.6795 - val_loss: 2.6122 - val_accuracy: 0.3667
+Epoch 4/10
+188/188 [==============================] - 71s 363ms/step - loss: 0.9186 - accuracy: 0.7042 - val_loss: 1.3610 - val_accuracy: 0.5317
+Epoch 5/10
+188/188 [==============================] - 51s 254ms/step - loss: 0.8613 - accuracy: 0.7292 - val_loss: 1.4743 - val_accuracy: 0.5167
+Epoch 6/10
+188/188 [==============================] - 61s 307ms/step - loss: 0.7652 - accuracy: 0.7625 - val_loss: 3.7222 - val_accuracy: 0.3225
+Epoch 7/10
+188/188 [==============================] - 32s 165ms/step - loss: 0.6997 - accuracy: 0.7862 - val_loss: 3.0265 - val_accuracy: 0.4150
+Trial 34 Complete [00h 08m 56s]
+val_accuracy: 0.5316666960716248
+
+Best val_accuracy So Far: 0.6341666579246521
+Total elapsed time: 04h 12m 04s
+
+Search: Running Trial #35
+
+Hyperparameter    |Value             |Best Value So Far 
+s1_filter_size_1  |32                |32                
+s2_filter_size_1  |256               |32                
+s2_filter_size_2  |128               |256               
+s3_filter_size_1  |64                |256               
+s3_filter_size_2  |64                |64                
+s4_filter_size_1  |256               |256               
+s4_filter_size_2  |128               |64                
+s5_filter_size_1  |128               |128               
+s5_filter_size_2  |256               |64                
+dp_size_1         |0.3               |0.1               
+dense_size_1      |256               |128               
+wd_size_1         |0.001             |0                 
+dense_size_2      |128               |128               
+wd_size_2         |0.001             |0                 
+dp_size_2         |0.1               |0.1               
+learning_rate     |0.1               |0.01              
+
+Epoch 1/10
+188/188 [==============================] - 122s 382ms/step - loss: 13.0237 - accuracy: 0.1742 - val_loss: 4.3498 - val_accuracy: 0.1667
+Epoch 2/10
+188/188 [==============================] - 51s 260ms/step - loss: 3.1048 - accuracy: 0.1673 - val_loss: 2.4219 - val_accuracy: 0.1667
+Epoch 3/10
+188/188 [==============================] - 37s 179ms/step - loss: 2.2062 - accuracy: 0.1663 - val_loss: 2.0482 - val_accuracy: 0.1667
+Epoch 4/10
+188/188 [==============================] - 27s 140ms/step - loss: 1.9773 - accuracy: 0.1665 - val_loss: 1.9131 - val_accuracy: 0.1667
+Epoch 5/10
+188/188 [==============================] - 26s 138ms/step - loss: 1.8851 - accuracy: 0.1658 - val_loss: 1.8508 - val_accuracy: 0.1667
+Epoch 6/10
+188/188 [==============================] - 26s 138ms/step - loss: 1.8411 - accuracy: 0.1668 - val_loss: 1.8210 - val_accuracy: 0.1667
+Epoch 7/10
+188/188 [==============================] - 26s 140ms/step - loss: 1.8199 - accuracy: 0.1675 - val_loss: 1.8067 - val_accuracy: 0.1667
+Epoch 8/10
+188/188 [==============================] - 26s 139ms/step - loss: 1.8098 - accuracy: 0.1675 - val_loss: 1.7998 - val_accuracy: 0.1667
+Epoch 9/10
+188/188 [==============================] - 26s 139ms/step - loss: 1.8050 - accuracy: 0.1668 - val_loss: 1.7966 - val_accuracy: 0.1667
+Epoch 10/10
+188/188 [==============================] - 26s 139ms/step - loss: 1.8028 - accuracy: 0.1668 - val_loss: 1.7951 - val_accuracy: 0.1667
+Trial 35 Complete [00h 07m 55s]
+val_accuracy: 0.1666666716337204
+
+Best val_accuracy So Far: 0.6341666579246521
+Total elapsed time: 04h 20m 00s
+
+Search: Running Trial #36
+
+Hyperparameter    |Value             |Best Value So Far 
+s1_filter_size_1  |128               |32                
+s2_filter_size_1  |64                |32                
+s2_filter_size_2  |128               |256               
+s3_filter_size_1  |32                |256               
+s3_filter_size_2  |128               |64                
+s4_filter_size_1  |32                |256               
+s4_filter_size_2  |128               |64                
+s5_filter_size_1  |128               |128               
+s5_filter_size_2  |256               |64                
+dp_size_1         |0.3               |0.1               
+dense_size_1      |128               |128               
+wd_size_1         |0.001             |0                 
+dense_size_2      |256               |128               
+wd_size_2         |0.1               |0                 
+dp_size_2         |0                 |0.1               
+learning_rate     |0.01              |0.01              
+
+Epoch 1/10
+188/188 [==============================] - 93s 277ms/step - loss: 2.2107 - accuracy: 0.4005 - val_loss: 4.7861 - val_accuracy: 0.2233
+Epoch 2/10
+188/188 [==============================] - 42s 195ms/step - loss: 1.2624 - accuracy: 0.5203 - val_loss: 1.9755 - val_accuracy: 0.3867
+Epoch 3/10
+188/188 [==============================] - 37s 166ms/step - loss: 1.1567 - accuracy: 0.5708 - val_loss: 1.2686 - val_accuracy: 0.5400
+Epoch 4/10
+188/188 [==============================] - 37s 164ms/step - loss: 1.0867 - accuracy: 0.6032 - val_loss: 2.7554 - val_accuracy: 0.3050
+Epoch 5/10
+188/188 [==============================] - 43s 205ms/step - loss: 1.0342 - accuracy: 0.6185 - val_loss: 1.3747 - val_accuracy: 0.5142
+Epoch 6/10
+188/188 [==============================] - 22s 111ms/step - loss: 0.9893 - accuracy: 0.6418 - val_loss: 1.3470 - val_accuracy: 0.5325
+Trial 36 Complete [00h 05m 49s]
+val_accuracy: 0.5400000214576721
+
+Best val_accuracy So Far: 0.6341666579246521
+Total elapsed time: 04h 25m 50s
+
+Search: Running Trial #37
+
+Hyperparameter    |Value             |Best Value So Far 
+s1_filter_size_1  |32                |32                
+s2_filter_size_1  |64                |32                
+s2_filter_size_2  |32                |256               
+s3_filter_size_1  |128               |256               
+s3_filter_size_2  |128               |64                
+s4_filter_size_1  |256               |256               
+s4_filter_size_2  |32                |64                
+s5_filter_size_1  |256               |128               
+s5_filter_size_2  |32                |64                
+dp_size_1         |0                 |0.1               
+dense_size_1      |256               |128               
+wd_size_1         |0.1               |0                 
+dense_size_2      |128               |128               
+wd_size_2         |0                 |0                 
+dp_size_2         |0.2               |0.1               
+learning_rate     |0.1               |0.01              
+
+Epoch 1/10
+188/188 [==============================] - 83s 214ms/step - loss: 3.8827 - accuracy: 0.1665 - val_loss: 1.7940 - val_accuracy: 0.1667
+Epoch 2/10
+188/188 [==============================] - 48s 226ms/step - loss: 1.8004 - accuracy: 0.1640 - val_loss: 1.7940 - val_accuracy: 0.1667
+Epoch 3/10
+188/188 [==============================] - 34s 150ms/step - loss: 1.8007 - accuracy: 0.1647 - val_loss: 1.7940 - val_accuracy: 0.1667
+Epoch 4/10
+188/188 [==============================] - 16s 80ms/step - loss: 1.8009 - accuracy: 0.1665 - val_loss: 1.7940 - val_accuracy: 0.1667
+Epoch 5/10
+188/188 [==============================] - 15s 78ms/step - loss: 1.8010 - accuracy: 0.1672 - val_loss: 1.7940 - val_accuracy: 0.1667
+Epoch 6/10
+188/188 [==============================] - 15s 78ms/step - loss: 1.8011 - accuracy: 0.1668 - val_loss: 1.7940 - val_accuracy: 0.1667
+Trial 37 Complete [00h 04m 29s]
+val_accuracy: 0.1666666716337204
+
+Best val_accuracy So Far: 0.6341666579246521
+Total elapsed time: 04h 30m 19s
+
+Search: Running Trial #38
+
+Hyperparameter    |Value             |Best Value So Far 
+s1_filter_size_1  |256               |32                
+s2_filter_size_1  |64                |32                
+s2_filter_size_2  |32                |256               
+s3_filter_size_1  |256               |256               
+s3_filter_size_2  |64                |64                
+s4_filter_size_1  |32                |256               
+s4_filter_size_2  |256               |64                
+s5_filter_size_1  |32                |128               
+s5_filter_size_2  |32                |64                
+dp_size_1         |0.3               |0.1               
+dense_size_1      |64                |128               
+wd_size_1         |0.1               |0                 
+dense_size_2      |64                |128               
+wd_size_2         |0                 |0                 
+dp_size_2         |0.2               |0.1               
+learning_rate     |0.01              |0.01              
+
+Epoch 1/10
+188/188 [==============================] - 98s 259ms/step - loss: 1.6983 - accuracy: 0.3862 - val_loss: 7.4162 - val_accuracy: 0.2308
+Epoch 2/10
+188/188 [==============================] - 57s 276ms/step - loss: 1.2819 - accuracy: 0.4850 - val_loss: 1.5902 - val_accuracy: 0.4558
+Epoch 3/10
+188/188 [==============================] - 30s 138ms/step - loss: 1.1899 - accuracy: 0.5522 - val_loss: 2.6119 - val_accuracy: 0.3800
+Epoch 4/10
+188/188 [==============================] - 26s 128ms/step - loss: 1.1141 - accuracy: 0.5927 - val_loss: 2.9967 - val_accuracy: 0.2658
+Epoch 5/10
+188/188 [==============================] - 35s 167ms/step - loss: 1.0797 - accuracy: 0.6030 - val_loss: 1.6109 - val_accuracy: 0.4508
+Trial 38 Complete [00h 05m 17s]
+val_accuracy: 0.4558333456516266
+
+Best val_accuracy So Far: 0.6341666579246521
+Total elapsed time: 04h 35m 37s
+
+Search: Running Trial #39
+
+Hyperparameter    |Value             |Best Value So Far 
+s1_filter_size_1  |128               |32                
+s2_filter_size_1  |128               |32                
+s2_filter_size_2  |256               |256               
+s3_filter_size_1  |32                |256               
+s3_filter_size_2  |128               |64                
+s4_filter_size_1  |32                |256               
+s4_filter_size_2  |64                |64                
+s5_filter_size_1  |64                |128               
+s5_filter_size_2  |64                |64                
+dp_size_1         |0                 |0.1               
+dense_size_1      |256               |128               
+wd_size_1         |0                 |0                 
+dense_size_2      |64                |128               
+wd_size_2         |0.001             |0                 
+dp_size_2         |0.2               |0.1               
+learning_rate     |0.01              |0.01              
+
+Epoch 1/10
+188/188 [==============================] - 107s 302ms/step - loss: 1.4188 - accuracy: 0.4205 - val_loss: 7.5610 - val_accuracy: 0.3158
+Epoch 2/10
+188/188 [==============================] - 51s 247ms/step - loss: 1.2093 - accuracy: 0.5103 - val_loss: 3.4579 - val_accuracy: 0.3817
+Epoch 3/10
+188/188 [==============================] - 36s 170ms/step - loss: 1.1271 - accuracy: 0.5563 - val_loss: 2.1680 - val_accuracy: 0.5050
+Epoch 4/10
+188/188 [==============================] - 39s 193ms/step - loss: 1.0758 - accuracy: 0.5853 - val_loss: 5.1323 - val_accuracy: 0.3258
+Epoch 5/10
+188/188 [==============================] - 37s 182ms/step - loss: 1.0346 - accuracy: 0.5965 - val_loss: 3.3669 - val_accuracy: 0.4050
+Epoch 6/10
+188/188 [==============================] - 33s 160ms/step - loss: 1.0217 - accuracy: 0.6110 - val_loss: 1.6690 - val_accuracy: 0.5583
+Epoch 7/10
+188/188 [==============================] - 51s 242ms/step - loss: 0.9512 - accuracy: 0.6453 - val_loss: 1.0327 - val_accuracy: 0.6592
+Epoch 8/10
+188/188 [==============================] - 35s 170ms/step - loss: 0.9213 - accuracy: 0.6563 - val_loss: 1.4184 - val_accuracy: 0.6058
+Epoch 9/10
+188/188 [==============================] - 34s 165ms/step - loss: 0.8908 - accuracy: 0.6763 - val_loss: 1.6600 - val_accuracy: 0.5475
+Epoch 10/10
+188/188 [==============================] - 30s 148ms/step - loss: 0.8657 - accuracy: 0.6908 - val_loss: 1.6276 - val_accuracy: 0.5825
+Trial 39 Complete [00h 09m 49s]
+val_accuracy: 0.659166693687439
+
+Best val_accuracy So Far: 0.659166693687439
+Total elapsed time: 04h 45m 27s
+
+Search: Running Trial #40
+
+Hyperparameter    |Value             |Best Value So Far 
+s1_filter_size_1  |64                |128               
+s2_filter_size_1  |128               |128               
+s2_filter_size_2  |32                |256               
+s3_filter_size_1  |32                |32                
+s3_filter_size_2  |128               |128               
+s4_filter_size_1  |128               |32                
+s4_filter_size_2  |128               |64                
+s5_filter_size_1  |64                |64                
+s5_filter_size_2  |128               |64                
+dp_size_1         |0.3               |0                 
+dense_size_1      |256               |256               
+wd_size_1         |0.001             |0                 
+dense_size_2      |64                |64                
+wd_size_2         |0                 |0.001             
+dp_size_2         |0.3               |0.2               
+learning_rate     |0.1               |0.01              
+
+Epoch 1/10
+188/188 [==============================] - 104s 240ms/step - loss: 4.9453 - accuracy: 0.1700 - val_loss: 2.0961 - val_accuracy: 0.1667
+Epoch 2/10
+188/188 [==============================] - 145s 223ms/step - loss: 1.9205 - accuracy: 0.1647 - val_loss: 1.8371 - val_accuracy: 0.1667
+Epoch 3/10
+188/188 [==============================] - 128s 132ms/step - loss: 1.8249 - accuracy: 0.1642 - val_loss: 1.8063 - val_accuracy: 0.1667
+Epoch 4/10
+188/188 [==============================] - 117s 83ms/step - loss: 1.8081 - accuracy: 0.1653 - val_loss: 1.7979 - val_accuracy: 0.1667
+Epoch 5/10
+188/188 [==============================] - 114s 77ms/step - loss: 1.8033 - accuracy: 0.1673 - val_loss: 1.7953 - val_accuracy: 0.1667
+Epoch 6/10
+188/188 [==============================] - 114s 77ms/step - loss: 1.8018 - accuracy: 0.1673 - val_loss: 1.7944 - val_accuracy: 0.1667
+Epoch 7/10
+188/188 [==============================] - 114s 77ms/step - loss: 1.8013 - accuracy: 0.1667 - val_loss: 1.7942 - val_accuracy: 0.1667
+Epoch 8/10
+188/188 [==============================] - 114s 77ms/step - loss: 1.8011 - accuracy: 0.1670 - val_loss: 1.7941 - val_accuracy: 0.1667
+Epoch 9/10
+188/188 [==============================] - 114s 77ms/step - loss: 1.8011 - accuracy: 0.1670 - val_loss: 1.7940 - val_accuracy: 0.1667
+Epoch 10/10
+188/188 [==============================] - 115s 78ms/step - loss: 1.8011 - accuracy: 0.1670 - val_loss: 1.7940 - val_accuracy: 0.1667
+Trial 40 Complete [00h 26m 04s]
+val_accuracy: 0.1666666716337204
+
+Best val_accuracy So Far: 0.659166693687439
+Total elapsed time: 05h 17m 32s
+
+Search: Running Trial #41
+
+Hyperparameter    |Value             |Best Value So Far 
+s1_filter_size_1  |32                |128               
+s2_filter_size_1  |128               |128               
+s2_filter_size_2  |64                |256               
+s3_filter_size_1  |128               |32                
+s3_filter_size_2  |64                |128               
+s4_filter_size_1  |32                |32                
+s4_filter_size_2  |64                |64                
+s5_filter_size_1  |128               |64                
+s5_filter_size_2  |256               |64                
+dp_size_1         |0.1               |0                 
+dense_size_1      |128               |256               
+wd_size_1         |0.1               |0                 
+dense_size_2      |256               |64                
+wd_size_2         |0.1               |0.001             
+dp_size_2         |0.3               |0.2               
+learning_rate     |0.01              |0.01              
+
+Epoch 1/10
+188/188 [==============================] - 187s 222ms/step - loss: 2.8640 - accuracy: 0.3990 - val_loss: 1.8064 - val_accuracy: 0.3375
+Epoch 2/10
+188/188 [==============================] - 153s 250ms/step - loss: 1.3688 - accuracy: 0.4980 - val_loss: 2.4049 - val_accuracy: 0.2900
+Epoch 3/10
+188/188 [==============================] - 130s 136ms/step - loss: 1.2770 - accuracy: 0.5355 - val_loss: 1.5478 - val_accuracy: 0.4008
+Epoch 4/10
+188/188 [==============================] - 126s 123ms/step - loss: 1.2343 - accuracy: 0.5465 - val_loss: 1.5851 - val_accuracy: 0.3950
+Epoch 5/10
+188/188 [==============================] - 128s 131ms/step - loss: 1.1580 - accuracy: 0.5852 - val_loss: 1.8920 - val_accuracy: 0.3267
+Epoch 6/10
+188/188 [==============================] - 127s 129ms/step - loss: 1.1849 - accuracy: 0.5760 - val_loss: 2.0346 - val_accuracy: 0.3342
+Trial 41 Complete [00h 10m 59s]
+val_accuracy: 0.4008333384990692
+
+Best val_accuracy So Far: 0.659166693687439
+Total elapsed time: 05h 27m 31s
+
+Search: Running Trial #42
+
+Hyperparameter    |Value             |Best Value So Far 
+s1_filter_size_1  |256               |128               
+s2_filter_size_1  |32                |128               
+s2_filter_size_2  |64                |256               
+s3_filter_size_1  |256               |32                
+s3_filter_size_2  |64                |128               
+s4_filter_size_1  |128               |32                
+s4_filter_size_2  |256               |64                
+s5_filter_size_1  |32                |64                
+s5_filter_size_2  |128               |64                
+dp_size_1         |0.1               |0                 
+dense_size_1      |128               |256               
+wd_size_1         |0.1               |0                 
+dense_size_2      |64                |64                
+wd_size_2         |0                 |0.001             
+dp_size_2         |0                 |0.2               
+learning_rate     |0.001             |0.01              
+
+Epoch 1/10
+188/188 [==============================] - 196s 270ms/step - loss: 5.1267 - accuracy: 0.5310 - val_loss: 1.9563 - val_accuracy: 0.4025
+Epoch 2/10
+188/188 [==============================] - 154s 273ms/step - loss: 1.1193 - accuracy: 0.6425 - val_loss: 3.0963 - val_accuracy: 0.2242
+Epoch 3/10
+188/188 [==============================] - 138s 185ms/step - loss: 0.9082 - accuracy: 0.6982 - val_loss: 1.3580 - val_accuracy: 0.5125
+Epoch 4/10
+188/188 [==============================] - 133s 164ms/step - loss: 0.8328 - accuracy: 0.7312 - val_loss: 2.2084 - val_accuracy: 0.4458
+Epoch 5/10
+188/188 [==============================] - 134s 172ms/step - loss: 0.7608 - accuracy: 0.7535 - val_loss: 1.5347 - val_accuracy: 0.5758
+Epoch 6/10
+188/188 [==============================] - 135s 174ms/step - loss: 0.7154 - accuracy: 0.7738 - val_loss: 1.2110 - val_accuracy: 0.6008
+Epoch 7/10
+188/188 [==============================] - 134s 166ms/step - loss: 0.6631 - accuracy: 0.7917 - val_loss: 1.1836 - val_accuracy: 0.6158
+Epoch 8/10
+188/188 [==============================] - 139s 190ms/step - loss: 0.5974 - accuracy: 0.8152 - val_loss: 1.3286 - val_accuracy: 0.5767
+Epoch 9/10
+188/188 [==============================] - 139s 185ms/step - loss: 0.5842 - accuracy: 0.8193 - val_loss: 1.2722 - val_accuracy: 0.6092
+Epoch 10/10
+188/188 [==============================] - 143s 205ms/step - loss: 0.5272 - accuracy: 0.8345 - val_loss: 1.4987 - val_accuracy: 0.5808
+Trial 42 Complete [00h 19m 05s]
+val_accuracy: 0.6158333420753479
+
+Best val_accuracy So Far: 0.659166693687439
+Total elapsed time: 05h 46m 37s
+
+Search: Running Trial #43
+
+Hyperparameter    |Value             |Best Value So Far 
+s1_filter_size_1  |64                |128               
+s2_filter_size_1  |32                |128               
+s2_filter_size_2  |32                |256               
+s3_filter_size_1  |128               |32                
+s3_filter_size_2  |32                |128               
+s4_filter_size_1  |256               |32                
+s4_filter_size_2  |128               |64                
+s5_filter_size_1  |128               |64                
+s5_filter_size_2  |256               |64                
+dp_size_1         |0.1               |0                 
+dense_size_1      |256               |256               
+wd_size_1         |0                 |0                 
+dense_size_2      |256               |64                
+wd_size_2         |0.001             |0.001             
+dp_size_2         |0.3               |0.2               
+learning_rate     |0.001             |0.01              
+
+Epoch 1/10
+188/188 [==============================] - 188s 254ms/step - loss: 1.5232 - accuracy: 0.4972 - val_loss: 1.8357 - val_accuracy: 0.3758
+Epoch 2/10
+188/188 [==============================] - 151s 251ms/step - loss: 1.1802 - accuracy: 0.6250 - val_loss: 3.8563 - val_accuracy: 0.3183
+Epoch 3/10
+188/188 [==============================] - 130s 147ms/step - loss: 1.0326 - accuracy: 0.6712 - val_loss: 1.8469 - val_accuracy: 0.4167
+Epoch 4/10
+188/188 [==============================] - 141s 190ms/step - loss: 0.9373 - accuracy: 0.7018 - val_loss: 1.2484 - val_accuracy: 0.5608
+Epoch 5/10
+188/188 [==============================] - 135s 170ms/step - loss: 0.8361 - accuracy: 0.7307 - val_loss: 1.4986 - val_accuracy: 0.5008
+Epoch 6/10
+188/188 [==============================] - 136s 154ms/step - loss: 0.7608 - accuracy: 0.7585 - val_loss: 1.3250 - val_accuracy: 0.5767
+Epoch 7/10
+188/188 [==============================] - 140s 191ms/step - loss: 0.6840 - accuracy: 0.7860 - val_loss: 2.4439 - val_accuracy: 0.4092
+Trial 43 Complete [00h 12m 44s]
+val_accuracy: 0.5766666531562805
+
+Best val_accuracy So Far: 0.659166693687439
+Total elapsed time: 05h 58m 22s
+
+Search: Running Trial #44
+
+Hyperparameter    |Value             |Best Value So Far 
+s1_filter_size_1  |128               |128               
+s2_filter_size_1  |128               |128               
+s2_filter_size_2  |128               |256               
+s3_filter_size_1  |128               |32                
+s3_filter_size_2  |64                |128               
+s4_filter_size_1  |256               |32                
+s4_filter_size_2  |64                |64                
+s5_filter_size_1  |128               |64                
+s5_filter_size_2  |32                |64                
+dp_size_1         |0                 |0                 
+dense_size_1      |128               |256               
+wd_size_1         |0.001             |0                 
+dense_size_2      |64                |64                
+wd_size_2         |0.001             |0.001             
+dp_size_2         |0                 |0.2               
+learning_rate     |0.001             |0.01              
+
+Epoch 1/10
+188/188 [==============================] - 298s 273ms/step - loss: 1.2834 - accuracy: 0.5523 - val_loss: 1.5818 - val_accuracy: 0.4708
+Epoch 2/10
+188/188 [==============================] - 246s 226ms/step - loss: 1.0258 - accuracy: 0.6570 - val_loss: 2.2054 - val_accuracy: 0.3725
+Epoch 3/10
+188/188 [==============================] - 241s 203ms/step - loss: 0.8961 - accuracy: 0.7060 - val_loss: 3.0332 - val_accuracy: 0.3700
+Epoch 4/10
+188/188 [==============================] - 227s 136ms/step - loss: 0.8029 - accuracy: 0.7385 - val_loss: 1.6805 - val_accuracy: 0.4600
+Trial 44 Complete [00h 14m 32s]
+val_accuracy: 0.47083333134651184
+
+Best val_accuracy So Far: 0.659166693687439
+Total elapsed time: 06h 12m 55s
+Results summary
+Results in 1626891385/BS_ResNet18_Intel
+Showing 10 best trials
+Objective(name='val_accuracy', direction='max')
+Trial summary
+Hyperparameters:
+s1_filter_size_1: 128
+s2_filter_size_1: 128
+s2_filter_size_2: 256
+s3_filter_size_1: 32
+s3_filter_size_2: 128
+s4_filter_size_1: 32
+s4_filter_size_2: 64
+s5_filter_size_1: 64
+s5_filter_size_2: 64
+dp_size_1: 0.0
+dense_size_1: 256
+wd_size_1: 0.0
+dense_size_2: 64
+wd_size_2: 0.001
+dp_size_2: 0.2
+learning_rate: 0.01
+Score: 0.659166693687439
+Trial summary
+Hyperparameters:
+s1_filter_size_1: 32
+s2_filter_size_1: 32
+s2_filter_size_2: 256
+s3_filter_size_1: 256
+s3_filter_size_2: 64
+s4_filter_size_1: 256
+s4_filter_size_2: 64
+s5_filter_size_1: 128
+s5_filter_size_2: 64
+dp_size_1: 0.1
+dense_size_1: 128
+wd_size_1: 0.0
+dense_size_2: 128
+wd_size_2: 0.0
+dp_size_2: 0.1
+learning_rate: 0.01
+Score: 0.6341666579246521
+Trial summary
+Hyperparameters:
+s1_filter_size_1: 128
+s2_filter_size_1: 128
+s2_filter_size_2: 256
+s3_filter_size_1: 64
+s3_filter_size_2: 256
+s4_filter_size_1: 32
+s4_filter_size_2: 256
+s5_filter_size_1: 32
+s5_filter_size_2: 64
+dp_size_1: 0.2
+dense_size_1: 64
+wd_size_1: 0.1
+dense_size_2: 128
+wd_size_2: 0.001
+dp_size_2: 0.1
+learning_rate: 0.001
+Score: 0.6316666603088379
+Trial summary
+Hyperparameters:
+s1_filter_size_1: 256
+s2_filter_size_1: 32
+s2_filter_size_2: 32
+s3_filter_size_1: 128
+s3_filter_size_2: 256
+s4_filter_size_1: 64
+s4_filter_size_2: 256
+s5_filter_size_1: 128
+s5_filter_size_2: 128
+dp_size_1: 0.1
+dense_size_1: 64
+wd_size_1: 0.0
+dense_size_2: 64
+wd_size_2: 0.1
+dp_size_2: 0.3
+learning_rate: 0.001
+Score: 0.621666669845581
+Trial summary
+Hyperparameters:
+s1_filter_size_1: 256
+s2_filter_size_1: 256
+s2_filter_size_2: 64
+s3_filter_size_1: 128
+s3_filter_size_2: 32
+s4_filter_size_1: 64
+s4_filter_size_2: 128
+s5_filter_size_1: 64
+s5_filter_size_2: 64
+dp_size_1: 0.1
+dense_size_1: 256
+wd_size_1: 0.0
+dense_size_2: 128
+wd_size_2: 0.1
+dp_size_2: 0.2
+learning_rate: 0.01
+Score: 0.621666669845581
+Trial summary
+Hyperparameters:
+s1_filter_size_1: 256
+s2_filter_size_1: 32
+s2_filter_size_2: 64
+s3_filter_size_1: 256
+s3_filter_size_2: 64
+s4_filter_size_1: 128
+s4_filter_size_2: 256
+s5_filter_size_1: 32
+s5_filter_size_2: 128
+dp_size_1: 0.1
+dense_size_1: 128
+wd_size_1: 0.1
+dense_size_2: 64
+wd_size_2: 0.0
+dp_size_2: 0.0
+learning_rate: 0.001
+Score: 0.6158333420753479
+Trial summary
+Hyperparameters:
+s1_filter_size_1: 128
+s2_filter_size_1: 256
+s2_filter_size_2: 64
+s3_filter_size_1: 128
+s3_filter_size_2: 32
+s4_filter_size_1: 128
+s4_filter_size_2: 256
+s5_filter_size_1: 32
+s5_filter_size_2: 64
+dp_size_1: 0.0
+dense_size_1: 128
+wd_size_1: 0.1
+dense_size_2: 64
+wd_size_2: 0.0
+dp_size_2: 0.2
+learning_rate: 0.01
+Score: 0.6150000095367432
+Trial summary
+Hyperparameters:
+s1_filter_size_1: 128
+s2_filter_size_1: 32
+s2_filter_size_2: 256
+s3_filter_size_1: 128
+s3_filter_size_2: 256
+s4_filter_size_1: 32
+s4_filter_size_2: 64
+s5_filter_size_1: 256
+s5_filter_size_2: 32
+dp_size_1: 0.2
+dense_size_1: 256
+wd_size_1: 0.0
+dense_size_2: 256
+wd_size_2: 0.0
+dp_size_2: 0.2
+learning_rate: 0.01
+Score: 0.5941666960716248
+Trial summary
+Hyperparameters:
+s1_filter_size_1: 64
+s2_filter_size_1: 32
+s2_filter_size_2: 32
+s3_filter_size_1: 128
+s3_filter_size_2: 32
+s4_filter_size_1: 256
+s4_filter_size_2: 128
+s5_filter_size_1: 128
+s5_filter_size_2: 256
+dp_size_1: 0.1
+dense_size_1: 256
+wd_size_1: 0.0
+dense_size_2: 256
+wd_size_2: 0.001
+dp_size_2: 0.3
+learning_rate: 0.001
+Score: 0.5766666531562805
+Trial summary
+Hyperparameters:
+s1_filter_size_1: 128
+s2_filter_size_1: 256
+s2_filter_size_2: 32
+s3_filter_size_1: 32
+s3_filter_size_2: 64
+s4_filter_size_1: 128
+s4_filter_size_2: 256
+s5_filter_size_1: 256
+s5_filter_size_2: 32
+dp_size_1: 0.3
+dense_size_1: 64
+wd_size_1: 0.0
+dense_size_2: 64
+wd_size_2: 0.1
+dp_size_2: 0.3
+learning_rate: 0.001
+Score: 0.5625
+
