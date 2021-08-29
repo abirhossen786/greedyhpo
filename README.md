@@ -6,7 +6,7 @@ Hyperparameter optimization or tuning plays a significant role in the performanc
 <p>
 List of frameworks and packages
   <li><a href="https://www.python.org/downloads/release/python-360/">Python 3.6</a>
+  <li><a href="https://jupyter.org/">Jupyter Notebook</a>
   <li><a href="https://www.tensorflow.org/">Tensorflow 2.4</a>
   <li><a href="https://keras.io/keras_tuner/">KerasTuner</a>
-
 </p>
