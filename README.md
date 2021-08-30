@@ -32,7 +32,46 @@ We performed eight experiments on two different platforms (PC and Edge), each ba
 <h3> Random Search and Bayesian Optimization:</h3> 
 For implementing standard HPO algorithm we use KerasTuner API. Click <a href="https://keras.io/keras_tuner/">here</a> to get detail implementation guide for implementing the algorithms. Just download the datasets and follow the step by step process of the guideline to successfully implemented the algorithms.
 <h3> GHO Algorithm:</h3>
+<b> Step 1: </b> Download or Import dataset along with the necessary Package
 
+```python
+import os
+import pandas as pd
+import matplotlib.pyplot as plt
+import numpy as np
+import time
+
+import tensorflow as tf
+from tensorflow.keras.callbacks import EarlyStopping,TensorBoard
+from tensorflow.keras.models import Sequential
+from tensorflow.keras.layers import Dense, Dropout,MaxPool2D, Activation, Flatten,Conv2D, MaxPooling2D
+from sklearn.model_selection import train_test_split
+
+from tensorflow.keras.utils import plot_model
+from tensorflow.keras import regularizers
+from tensorflow.keras.datasets import cifar10
+from tensorflow.keras.optimizers import Adam
+
+```
+<b> Step 2: </b> Define search space
+
+```python
+layer_sizes_1 = [16,32,64,128,256,512]
+layer_sizes_2 = [16,32,64,128,256,512]
+layer_sizes_3 = [16,32,64,128,256,512]
+layer_sizes_4 = [16,32,64,128,256,512]
+layer_sizes_5 = [16,32,64,128,256,512]
+dense_sizes_1 = [64,128,256,512]
+dense_sizes_2 = [64,128,256,512]
+learning_rates_1 = [1e-3,1e-1,1e-2,1e-4, 1e-5]
+dp_sizes_1 = [0.0,0.1,0.2,0.3,0.4,0.5,0.6,0.7,0.8]
+dp_sizes_2 = [0.0,0.1,0.2,0.3,0.4,0.5,0.6,0.7,0.8]
+dp_sizes_3 = [0.0,0.1,0.2,0.3,0.4,0.5,0.6,0.7,0.8]
+dp_sizes_4 = [0.0,0.1,0.2,0.3,0.4,0.5,0.6,0.7,0.8]
+dp_sizes_5 = [0.0,0.1,0.2,0.3,0.4,0.5,0.6,0.7,0.8]
+dp_sizes_6 = [0.0,0.1,0.2,0.3,0.4,0.5,0.6,0.7,0.8]
+wd_sizes_1=[0,0.1, 0.001, 0.0001]
+```
 <h2> Contacts </h2>
 
 ```
