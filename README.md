@@ -20,10 +20,10 @@ We performed eight experiments on two different platforms (PC and Edge), each ba
   <li><a href="https://www.cs.toronto.edu/~kriz/cifar.html">CIFAR10</a>
   <li><a href="https://www.kaggle.com/puneet6060/intel-image-classification">Intel Image Classification</a>
 <h3> Architectures </h3>
-    for PC we selected,
+    for PC,
     <li> Vgg16 </li>
     <li> ResNet50 </li>
-    for Edge Platform,
+    for NVIDIA Jetson Nano,
     <li> Vgg11 </li>
     <li> ResNet18 </li>
 
