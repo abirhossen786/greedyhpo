@@ -5,7 +5,17 @@ Hyperparameter optimization or tuning plays a significant role in the performanc
 <h3> Built With </h3>
 <p>
 List of frameworks and packages
-  <li><a href="https://www.python.org/downloads/release/python-360/">Python 3.6</a>
+  <li><a href="https://www.python.org/downloads/release/python-360/">Python 3.7</a>
   <li><a href="https://www.tensorflow.org/">Tensorflow 2.4</a>
   <li><a href="https://keras.io/keras_tuner/">KerasTuner</a>
+  <li><a href="https://jupyter.org/">Jupyter Notebook</a>
 </p>
+<h2> Project Description </h2>
+We performed eight experiments on two different platforms (PC and Edge), each based on a different DNN  architecture and dataset (CIFAR10 and the Intel Image Classification). We  specified the same hyper-parameter configuration space to fairly compare RandomSearch, Bayesian optimization and GHO. The optimal hyper-parameter configuration was determined by each of the HPO algorithms based on the highest validation accuracy. To prevent the time complexity, we fixed the activation function: relu, optimizer: adam, epochs: 100, kernel size: (3, 3). pool size: (2, 2), and stride size: (2, 2). We also use the early stopping callback function to prevent the overfitting of the model and define, monitor: 'val_loss', and  patience : 3.
+
+<b> Test Cases on PC: </b> All the testcases for PC are found in [main_test_case](https://github.com/abirhossen786/greedyhpo/tree/main/main/Main_test_case) under the name of each dataset. Under each dataset there are jupyter files where all the codes for different HPO algorithms on different architecture are given. Already generated results are generated on a machine with a 32-core AMD Ryzen Threadripper TR4 processor, NVIDIA RTX A6000 GPU card, 48 GB of GPU memory, and 128 GB of DDR4 CPU memory.
+
+<b> Test Cases on Edge Platform: </b> 
+<h3> Datasets </h3>
+  <li><a href="https://www.cs.toronto.edu/~kriz/cifar.html">CIFAR10</a>
+  <li><a href="https://www.kaggle.com/puneet6060/intel-image-classification">Intel Image Classification</a>
