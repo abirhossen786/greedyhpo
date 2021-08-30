@@ -33,4 +33,21 @@ We performed eight experiments on two different platforms (PC and Edge), each ba
 For implementing standard HPO algorithm we use KerasTuner API. Click <a href="https://keras.io/keras_tuner/">here</a> to get detail implementation guide for implementing the algorithms. Just download the datasets and follow the step by step process of the guideline to successfully implemented the algorithms.
 <h3> GHO Algorithm:</h3>
 
+<h2> Contacts </h2>
+
+```
+Anjir Ahmed Chowdhury
+Department of Computer Science, Primeasia University, Bangladesh
+anjir.ahmed@primeasia.edu.bd
+```
+```
+Md Ali Azam 
+Department of Electrical Engineering, South Dakota School of Mines and Technology, Rapid City, SD 57701 USA 
+azam.ete.ruet@gmail.com
+```
+```
+Md Abir Hossen
+Computer Scicence and Engineering Department, University of South Carolina, SC 29208 USA 
+mhossen@email.sc.edu
+```
 <h2> Citation </h2>
