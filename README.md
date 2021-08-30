@@ -27,7 +27,11 @@ We performed eight experiments on two different platforms (PC and Edge), each ba
     for NVIDIA Jetson Nano,
     <li> Vgg11 </li>
     <li> ResNet18 </li>
-
+    
+<h3> HPO Algorithms </h3>
+  <li><a href="https://www.jmlr.org/papers/v13/bergstra12a.html?source=post_page---------------------------">Random Search</a>
+  <li><a href="https://papers.nips.cc/paper/2012/file/05311655a15b75fab86956663e1819cd-Paper.pdf">Bayesian Optimization</a>
+  <li> GHO (ours) </li>
 <h2> How to use </h2>
 <h3> Random Search and Bayesian Optimization:</h3> 
 For implementing standard HPO algorithm we use KerasTuner API. Click <a href="https://keras.io/keras_tuner/">here</a> to get detail implementation guide for implementing the algorithms. Just download the datasets and follow the step by step process of the guideline to successfully implemented the algorithms.
