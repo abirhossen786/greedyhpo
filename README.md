@@ -15,7 +15,15 @@ We performed eight experiments on two different platforms (PC and Edge), each ba
 
 <b> Test Cases on PC: </b> All the testcases for PC are found in [main_test_case](https://github.com/abirhossen786/greedyhpo/tree/main/main/Main_test_case) under the name of each dataset. Under each dataset there are jupyter files where all the codes for different HPO algorithms on different architecture are given. Already generated results are generated on a machine with a 32-core AMD Ryzen Threadripper TR4 processor, NVIDIA RTX A6000 GPU card, 48 GB of GPU memory, and 128 GB of DDR4 CPU memory.
 
-<b> Test Cases on Edge Platform: </b> 
+<b> Test Cases on Edge Platform: </b> For edge platform we use [Nvidia Jetson Nano (2GB)](https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-nano/education-projects/). All the python codes are found in [JetsonNano_test_case](https://github.com/abirhossen786/greedyhpo/tree/main/main/JetsonNano_test_case). Along with that there are screenshots which record the device status to justify our findings. 
 <h3> Datasets </h3>
   <li><a href="https://www.cs.toronto.edu/~kriz/cifar.html">CIFAR10</a>
   <li><a href="https://www.kaggle.com/puneet6060/intel-image-classification">Intel Image Classification</a>
+<h3> Architectures </h3>
+    for PC we selected,
+    <li> Vgg16 </li>
+    <li> ResNet50 </li>
+    for Edge Platform,
+    <li> Vgg11 </li>
+    <li> ResNet18 </li>
+    
