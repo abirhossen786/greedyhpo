@@ -26,4 +26,10 @@ We performed eight experiments on two different platforms (PC and Edge), each ba
     for Edge Platform,
     <li> Vgg11 </li>
     <li> ResNet18 </li>
-    
+
+<h2> How to use </h2>
+<h3> Random Search and Bayesian Optimization:</h3> 
+For implementing standard HPO algorithm we use KerasTuner API. Click <a href="https://keras.io/keras_tuner/">here</a> to get detail implementation guide for implementing the algorithms. Just download the datasets and follow the step by step process of the guideline to successfully implemented the algorithms.
+<h3> GHO Algorithm:</h3>
+
+<h2> Citation </h2>
