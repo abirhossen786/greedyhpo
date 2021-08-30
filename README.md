@@ -57,7 +57,7 @@ from tensorflow.keras.datasets import cifar10
 from tensorflow.keras.optimizers import Adam
 
 ```
-<b> Step 2: </b> Define search space
+<b> Step 2: </b> Define the search space
 
 ```python
 layer_sizes_1 = [16,32,64,128,256,512]
@@ -75,6 +75,26 @@ dp_sizes_4 = [0.0,0.1,0.2,0.3,0.4,0.5,0.6,0.7,0.8]
 dp_sizes_5 = [0.0,0.1,0.2,0.3,0.4,0.5,0.6,0.7,0.8]
 dp_sizes_6 = [0.0,0.1,0.2,0.3,0.4,0.5,0.6,0.7,0.8]
 wd_sizes_1=[0,0.1, 0.001, 0.0001]
+```
+
+<b> Step 3: </b> Define the default values for each hyperparameters
+
+```python
+opt_layer_1=16
+opt_layer_2=16
+opt_layer_3=16
+opt_layer_4=16
+opt_layer_5=16
+opt_layer_6=0.001
+opt_layer_7=64
+opt_layer_8=64
+opt_layer_9=0.0
+opt_layer_10=0.0
+opt_layer_11=0.0
+opt_layer_12=0.0
+opt_layer_13=0.0
+opt_layer_14=0.0
+opt_layer_15=0.0
 ```
 <h2> Contacts </h2>
 
