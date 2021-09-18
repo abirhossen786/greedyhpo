@@ -96,7 +96,7 @@ opt_layer_13=0.0
 opt_layer_14=0.0
 opt_layer_15=0.0
 ```
-<h2> Contacts </h2>
+<!---<h2> Contacts </h2>--->
 <!--- 
 ```
 Anjir Ahmed Chowdhury
