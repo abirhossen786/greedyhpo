@@ -97,7 +97,7 @@ opt_layer_14=0.0
 opt_layer_15=0.0
 ```
 <h2> Contacts </h2>
-
+<!--- 
 ```
 Anjir Ahmed Chowdhury
 Department of Computer Science, Primeasia University, Bangladesh
@@ -113,5 +113,6 @@ Md Abir Hossen
 Computer Scicence and Engineering Department, University of South Carolina, SC 29208 USA 
 mhossen@email.sc.edu
 ```
+--->
 <h2> Citation </h2>
 
