@@ -1,3 +1,11 @@
+<h2> Citation </h2>
+If you like our work and find useful, please cite as:
+@article{chowdhury2021deepqgho,
+  title={DeepQGHO: Quantized Greedy Hyperparameter Optimization in Deep Neural Networks for on-the-fly Learning},
+  author={Chowdhury, Anjir Ahmed and Hossen, Md Abir and Azam, Md Ali and Rahman, Md Hafizur},
+  year={2021}
+}
+
 # GHO : Greedy Approch Based Hyperpameter Optimization
 ```greedy algorithm``` ```deep learning``` ```neural networks``` ```online learning``` ```hyperparameter optimization``` ```edge device``` ```Jetson Nano```
 <p align="center" width="25%"><img width="25%" src="GHO.png"></p>
@@ -114,5 +122,5 @@ Computer Scicence and Engineering Department, University of South Carolina, SC 2
 mhossen@email.sc.edu
 ```
 --->
-<h2> Citation </h2>
+
 
