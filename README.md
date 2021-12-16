@@ -1,8 +1,8 @@
-<h2> Citation </h2>
-If you like our work and find useful, please cite as:
-@article{chowdhury2021deepqgho,
-  title={DeepQGHO: Quantized Greedy Hyperparameter Optimization in Deep Neural Networks for on-the-fly Learning},
-  author={Chowdhury, Anjir Ahmed and Hossen, Md Abir and Azam, Md Ali and Rahman, Md Hafizur},
+<!-- <h2> <i> Citation </i> </h2> -->
+<i> <b> If you like our work and find useful, please cite as: </b> </i> <br>
+@article{chowdhury2021deepqgho, <br>
+  title={DeepQGHO: Quantized Greedy Hyperparameter Optimization in Deep Neural Networks for on-the-fly Learning}, <br>
+  author={Chowdhury, Anjir Ahmed and Hossen, Md Abir and Azam, Md Ali and Rahman, Md Hafizur}, <br>
   year={2021}
 }
 
